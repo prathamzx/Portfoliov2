@@ -1,0 +1,27 @@
+.navbar-container{
+    height: 60px;
+    width: 100%;
+    background-color:	#413737;
+    position: fixed;
+    /* opacity: 0.9; */
+    
+}
+
+.navbar-text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-buttons{
+    display: inline-flex;
+    position: relative;
+    height:30px;
+    width: 50%;
+    top:40%;
+    left:48%;
+    transform: translate(10%,-50%);
+    color: #ff670f;
+    /* font-weight: bold; */
+    font-family:fantasy;
+    font-size: 20px;
+}

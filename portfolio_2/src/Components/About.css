@@ -1,0 +1,127 @@
+.about-container{
+    height:500px;
+    width:70%;
+    background-color: #f6f6f6;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top:780px;
+    opacity: 0.95;
+    border-radius: 30px;
+}
+
+.bolt-minus-white{
+    color: #f6f6f6;
+    border-color: #f6f6f6;
+    height: 16px;
+    width: 24px;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-2px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.about-label-text{
+    position: absolute;
+    top:50%;
+    right:20%;
+    transform: translate(0,-50%);
+    color: #ff670f;
+    font-family:fantasy;
+    font-size:xx-large;
+}
+
+
+.bolt-minus-black{
+    color: #f6f6f6;
+    border-color: #413737;
+    height: 12px;
+    width: 14px;
+    border-width: 3px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 6.5px;
+    margin-left:-2px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.about-label{
+    height:150px;
+    width:20%;
+    background-color: #413737;
+    position: absolute;
+    top:960px;
+    left:-30px;
+    border-radius: 30px;
+}
+
+.about-bolt-tl{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #413737;
+    border-radius: 50%;
+    top:10px;
+    left:10px;
+}
+
+.about-bolt-tr{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #413737;
+    border-radius: 50%;
+    float: right;
+    right:10px;
+    bottom: 10px;   
+}
+
+.about-bolt-bl{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #413737;
+    border-radius: 50%;
+    top:450px;
+    left:10px;   
+}
+
+.about-bolt-br{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #413737;
+    border-radius: 50%;
+    float: right;
+    right:10px;
+    top:430px;   
+}
+
+.about-label-bolt-tr{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    right:10px;
+    top:10px;
+    background-color: #ff670f;
+    border-radius: 50%;
+    float: right;
+}
+
+.about-label-bolt-br{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    /* right:10px; */
+    right:-5px;
+    top:125px;
+    background-color: #ff670f;
+    border-radius: 50%;
+    float: right;
+}

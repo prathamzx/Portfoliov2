@@ -1,0 +1,104 @@
+.skills-container-left{
+    height: 700px;
+    width: 42%;
+    background-color: #413737;
+    top:1230px;
+    position: absolute;
+    border-radius: 30px;
+    left:-30px;
+}
+
+.skills-container-right{
+    height: 700px;
+    width: 42%;
+    background-color: #413737;
+    top:1230px;
+    position: absolute;
+    border-radius: 30px;
+    right: -30px;
+}
+
+.skills-label-text{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color: #ff670f;
+    font-family: fantasy;
+    font-size: 220%;
+}
+
+.skills-label{
+    height:220px;
+    width:220px;
+    background-color: #413737;
+    position: absolute;
+    top:1500px;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 30px;
+}
+
+.skills-label-left{
+    height:0px;
+    width:0px;
+    background-color: transparent;
+    border-color: #f6f6f6;
+    border-style: solid;
+    border-width: 120px;
+    position: absolute;
+    opacity: 0.95;
+    top:1480px;
+    left:46%;
+    transform: translate(-50%,0);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+
+    /* border-radius: 20%; */
+}
+
+
+
+.skills-label-right{
+    height:0px;
+    width:0px;
+    background-color: transparent;
+    border-color: #f6f6f6;
+    border-style: solid;
+    border-width: 120px;
+    position: absolute;
+    opacity: 0.95;
+    top:1480px;
+    left:54%;
+    transform: translate(-50%,0);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+
+    /* border-radius: 20%; */
+}
+
+.skills-bolt-label-l{
+        position: relative;
+        height: 15px;
+        width: 15px;
+        top:92.5px;
+        left: 5px;
+        /* transform: translate(0,-50%); */
+        background-color: #ff670f;
+        border-radius: 50%;
+        /* float: right; */
+}
+
+.skills-bolt-label-r{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    right: 5px;
+    top:77.5px;
+    /* transform: translate(0,-50%); */
+    background-color: #ff670f;
+    border-radius: 50%;
+    float: right;
+}

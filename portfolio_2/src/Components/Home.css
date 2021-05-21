@@ -1,0 +1,9 @@
+.home-container{
+    height: 780px;
+    width: 100%;
+    background-color: #413737;
+    /* opacity: 0.9; */
+    position: absolute;
+    top: 50px;
+    right: 0%;
+}
