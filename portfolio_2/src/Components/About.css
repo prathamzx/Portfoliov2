@@ -1,7 +1,7 @@
 .about-container{
     height:500px;
     width:70%;
-    background-color: #f6f6f6;
+    background-color: #d2d0d0;
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
@@ -11,8 +11,8 @@
 }
 
 .bolt-minus-white{
-    color: #f6f6f6;
-    border-color: #f6f6f6;
+    color: #d2d0d0;
+    border-color: #d2d0d0;
     height: 16px;
     width: 24px;
     border-width: 2px;
@@ -23,6 +23,22 @@
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
+}
+
+.about-container-text{
+    height: 450px;
+    width:80%;
+    border-style: dashed;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-container-text-style{
+    font-size: 20px;
+    color: #413737;
+    /* font-family: fantasy; */
 }
 
 .about-label-text{
@@ -37,7 +53,7 @@
 
 
 .bolt-minus-black{
-    color: #f6f6f6;
+    color: #d2d0d0;
     border-color: #413737;
     height: 12px;
     width: 14px;

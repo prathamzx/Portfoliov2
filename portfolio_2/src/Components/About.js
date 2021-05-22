@@ -5,9 +5,15 @@ class About extends React.Component {
     
 
     render(){
+        const aboutText="";
         return(
         <div>
             <div className="about-container">
+                <div className="about-container-text">
+                    <div className="about-container-text-style">
+                        {aboutText}
+                    </div>
+                </div>
                 <div className="about-bolt-tl">
                     <div className="bolt-minus-white"></div>
                 </div>
