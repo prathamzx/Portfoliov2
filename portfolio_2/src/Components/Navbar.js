@@ -8,15 +8,37 @@ class Navbar extends React.Component {
         return(
             <div className="navbar-container">
                 <div className="navbar-buttons">
-                    <span className="navbar-text">Home</span>
-                    <span className="navbar-text">About</span>
-                    <span className="navbar-text">Education</span>
-                    <span className="navbar-text">Skills</span>
-                    <span className="navbar-text">Experience</span>
-                    <span className="navbar-text">Projects</span>
+                    <button onClick={() => this.props.clickFunction()}>
+                        <a href="#skills">
+                            <span className="navbar-text">Home</span>
+                        </a>
+                    </button>
+                    <button onClick={() => this.props.clickFunction()}>
+                        <a href="#skills">
+                            <span className="navbar-text">About</span>
+                        </a>
+                    </button>
+                    <button onClick={() => this.props.clickFunction()}>
+                        <a href="#skills">
+                            <span className="navbar-text">Skills</span>
+                        </a>
+                    </button>
+                    <button onClick={() => this.props.clickFunction()}>
+                        <a href="#skills">
+                            <span className="navbar-text">Experience</span>
+                        </a>
+                    </button>
+                    <button onClick={() => this.props.clickFunction()}>
+                        <a href="#skills">
+                            <span className="navbar-text">Projects</span>
+                        </a>
+                    </button>
+                    <button onClick={() => this.props.clickFunction()}>
+                        <a href="#skills">
+                            <span className="navbar-text">Education</span>
+                        </a>
+                    </button>
 
-                    {/* 0DC5A0: cyan */}
-                    {/* #f6f6f6: light grey */}
                     
                 </div>
             </div>

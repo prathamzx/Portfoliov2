@@ -1,6 +1,6 @@
 .home-container{
     height: 780px;
-    width: 100%;
+    width: 100vw;
     background-color: #413737;
     /* opacity: 0.9; */
     position: absolute;
@@ -37,7 +37,7 @@
     border-width: 1px;
     /* border-style: dashed; */
     height:200px;
-    width:700px;
+    width:fit-content;
     /* background-color: #f6f6f6; */
     border-color: #d2d0d0;
 }

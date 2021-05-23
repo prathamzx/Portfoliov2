@@ -1,27 +1,38 @@
 .navbar-container{
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color:	#413737;
     position: fixed;
     /* opacity: 0.9; */
     
 }
 
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+button{
+    background-color: transparent;
+    border:none;
+}
+
 .navbar-text{
     margin-left: 20px;
     margin-right: 20px;
+    color: #ff670f;
+    /* font-weight: bold; */
+    font-family:fantasy;
+    font-size: 20px;
 }
 
 .navbar-buttons{
     display: inline-flex;
     position: relative;
     height:30px;
-    width: 50%;
+    width: fit-content;
     top:40%;
-    left:48%;
-    transform: translate(10%,-50%);
-    color: #ff670f;
-    /* font-weight: bold; */
-    font-family:fantasy;
-    font-size: 20px;
+    float: right;
+    /* transform: translate(1,-50%); */
+    
 }

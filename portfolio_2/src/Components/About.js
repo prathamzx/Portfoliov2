@@ -8,7 +8,7 @@ class About extends React.Component {
         const aboutText="";
         return(
         <div>
-            <div className="about-container">
+            <div id="about" className="about-container">
                 <div className="about-container-text">
                     <div className="about-container-text-style">
                         {aboutText}

@@ -1,21 +1,26 @@
+#skills{
+    position: absolute;
+    top:1200px;
+}
+
 .skills-container-left{
     height: 700px;
-    width: 42%;
+    width: 38%;
     background-color: #413737;
     top:1230px;
     position: absolute;
     border-radius: 30px;
-    left:-30px;
+    left:0px;
 }
 
 .skills-container-right{
     height: 700px;
-    width: 42%;
+    width: 38%;
     background-color: #413737;
     top:1230px;
     position: absolute;
     border-radius: 30px;
-    right: -30px;
+    right: 0px;
 }
 
 .skills-label-text{
@@ -102,3 +107,235 @@
     border-radius: 50%;
     float: right;
 }
+
+@keyframes load{
+    from {
+      width: 0%
+    }
+  }
+@-webkit-keyframes load{
+    from {
+        width: 0%
+    }
+}
+@-moz-keyframes load{
+    from {
+        width: 0%
+    }
+}
+@-o-keyframes load{
+    from {
+        width: 0%
+    }
+}
+  
+/* .skill-container{
+    width: 40%;
+    position: relative;
+    left:10%;
+    top: 20%; 
+} */
+
+/* .progress-container{
+    height: 100px;
+    width: 100px;;
+} */
+  
+.bar{
+    background-color: transparent;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #d2d0d0;
+    font-weight: bold;
+    width:70%;
+    position: relative;
+    left:50%;
+    top:20%;
+    transform: translate(-50%,0);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+    content:  attr(data-skill);
+    background-color: #d35b15;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+    background-color: #d35b15;
+}
+.bar.back::before{
+    background-color: #d35b15;
+}
+
+.bar.learning::before{
+    width: calc(20% - 10px);
+}
+.bar.basic::before{
+    width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+    width: calc(60% - 10px);
+}
+.bar.advanced::before{
+    width: calc(80% - 10px);
+}
+.bar.expert::before{
+    width: calc(100% - 10px);
+}
+
+
+
+
+
+.progress-box{
+    /* border-style: solid;
+    border-color: white;
+    border-width: 2px; */
+    height:80%;
+    width:80%;
+    position: relative;
+    top: 55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.progress-box-row-1{
+    height: 150px;
+    /* width:350px; */
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%,0%);
+}
+
+.progress-box-row-2{
+    height: 150px;
+    /* width:350px; */
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%,0%);
+}
+
+.progress-box-row-3{
+    height: 150px;
+    /* width:350px; */
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%,0%);
+}
+
+
+.progress-box-svg-1{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    left: 10%;
+}
+
+
+.progress-box-svg-2{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    right: 10%;
+}
+
+.progress-box-svg-3{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    left: 10%;
+}
+
+.progress-box-svg-4{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    right: 10%;
+}
+
+.progress-box-svg-5{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    left: 10%;
+}
+
+.progress-box-svg-6{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    right: 10%;
+}
+
+
+svg circle{
+    fill:rgba(0, 0, 0, 0.39);
+    stroke-width: 20;
+    stroke:#d35b15;
+    /* transform: translate(px,5px); */
+    stroke-dasharray: 380;
+    stroke-dashoffset:380;
+    /* stroke-linecap: round; */
+}
+
+.circle-25{
+    animation: 2s stroke-25 forwards;
+}
+.circle-50{
+    animation: 2s stroke-50 forwards;
+}
+.circle-75{
+    animation: 2s stroke-75 forwards;
+}
+.circle-100{
+    animation: 2s stroke-100 forwards;
+}
+
+
+svg{
+    transform: rotate(-90deg);
+}
+
+@keyframes stroke-25 {
+    100%{
+        stroke-dashoffset: 275;
+    }
+}
+@keyframes stroke-50 {
+    100%{
+        stroke-dashoffset: 190;
+    }
+}
+@keyframes stroke-75 {
+    100%{
+        stroke-dashoffset: 95;
+    }
+}
+@keyframes stroke-100 {
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+/* svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:#f3f3f3;
+}
+
+
+svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 45) / 100);
+    stroke:#8a1f1f;
+} */
+
