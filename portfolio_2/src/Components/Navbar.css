@@ -3,6 +3,7 @@
     width: 100vw;
     background-color:	#413737;
     position: fixed;
+    z-index: 3;
     /* opacity: 0.9; */
     
 }
