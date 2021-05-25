@@ -1,0 +1,106 @@
+.experience-container{
+    height:800px;
+    width:80%;
+    position: absolute;
+    top:1850px;
+    right: 0;
+    /* background-color: transparent;
+    border-color: white;
+    border-style: dashed; */
+    /* border-width: 2px; */
+}
+
+.experience-label{
+    height:200px;
+    width:200px;
+    background-color: #ff670f;
+    border-radius: 50%;
+    z-index: 2;
+    /* position: absolute; */
+}
+
+.experience-label-container{
+    height:200px;
+    width:fit-content;
+    display: inline-flex;    
+}
+
+.experience-label-text{
+    height: 100px;
+    width:240px;
+    background-color: #413737;
+    position: relative;
+    top:50%;
+    left:-5%;
+    z-index: 1;
+    border-radius: 20px;
+    transform: translate(0%,-50%);
+}
+
+.experience-label-text-style{
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: right;
+    color: #ff670f;
+    position: relative;
+    top:50%;
+    /* right: 5%; */
+    transform: translate(-5%,-50%);
+}
+
+.experience-text{
+    position: absolute;
+    background-color: #d2d0d0;
+    height: 800px;
+    width:90%;
+    top:100px;
+    right: 0;
+    opacity: 0.95;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.experience-entry{
+    height:200px;
+    width: 110%;
+    /* border-color: rgb(0, 0, 0);
+    border-style: dashed; 
+    border-width: 2px; */
+    right: 0%;
+    left:-10%;
+    top:5%;
+    position: relative;
+    display: inline-flex;
+}
+
+.experience-entry-logo{
+    height:180px;
+    width:180px;
+    background-color: #413737;
+    position: relative;
+    border-radius: 20px;
+    top:5%;
+    /* left:-10%; */
+}
+
+.experience-entry-connect{
+    height: 30px;
+    width:100px;
+    position: relative;
+    background-color: #d2d0d0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    border-radius: 10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.experience-entry-img{
+    height: 80%;
+    width: 80%;
+    border-radius: 30px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
