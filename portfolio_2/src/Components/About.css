@@ -28,7 +28,7 @@
 .about-container-text{
     height: 450px;
     width:80%;
-    border-style: dashed;
+    /* border-style: dashed; */
     position: absolute;
     left: 50%;
     top:50%;
