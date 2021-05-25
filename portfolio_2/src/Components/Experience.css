@@ -81,6 +81,7 @@
     background-color: #413737;
     position: relative;
     border-radius: 20px;
+    z-index: 1;
     top:5%;
     /* left:-10%; */
 }
@@ -94,7 +95,7 @@
     transform: translate(0%,-50%);
     border-radius: 10px;
     left: -10px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .experience-entry-img{
