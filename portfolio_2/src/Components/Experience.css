@@ -52,12 +52,14 @@
     position: absolute;
     background-color: #d2d0d0;
     height: 800px;
-    width:90%;
+    width:60%;
     top:100px;
-    right: 0;
+    /* right: 0; */
     opacity: 0.95;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    left:10%;
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    border-radius: 50px;
 }
 
 .experience-entry{

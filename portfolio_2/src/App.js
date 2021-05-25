@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Experience from './Components/Experience';
+import Education from './Components/Education';
 import React from 'react';
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
         <About/>
         {/* <Skills/> */}
         <Experience/>
+        <Education/>
         <Navbar clickFunction={this.clickFunction} clicked={this.state.skills}/>
       <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back8.jpg'} />
       </div>
