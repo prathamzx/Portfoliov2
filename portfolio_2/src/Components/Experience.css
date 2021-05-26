@@ -1,8 +1,8 @@
 .experience-container{
     height:800px;
-    width:80%;
+    width:55%;
     position: absolute;
-    top:1850px;
+    top:2780px;
     right: 0;
     /* background-color: transparent;
     border-color: white;
@@ -11,10 +11,13 @@
 }
 
 .experience-label{
-    height:200px;
-    width:200px;
+    height:180px;
+    width:180px;
     background-color: #ff670f;
     border-radius: 50%;
+    border-color: #413737;
+    border-style:double;
+    border-width: 10px;
     z-index: 2;
     /* position: absolute; */
 }
@@ -52,14 +55,14 @@
     position: absolute;
     background-color: #d2d0d0;
     height: 800px;
-    width:60%;
+    width:85%;
     top:100px;
-    /* right: 0; */
+    right: 0;   
     /* opacity: 0.95; */
-    left:10%;
-    /* border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px; */
-    border-radius: 50px;
+    /* left:10%; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-radius: 50px; */
 }
 
 .experience-entry{
@@ -87,15 +90,21 @@
 }
 
 .experience-entry-connect{
-    height: 30px;
-    width:100px;
-    position: relative;
-    background-color: #d2d0d0;
-    top: 50%;
-    transform: translate(0%,-50%);
-    border-radius: 10px;
-    left: -10px;
-    /* z-index: -1; */
+    height:0px;
+    width:0px;
+    background-color: transparent;
+    border-color: #d2d0d0;
+    border-style: solid;
+    border-width: 5em;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    position: absolute;
+    left: 7%;
+    /* left:-10%;  */
+    /* z-index: 5; */
+    top:50%;
+    transform: translate(0,-50%);
 }
 
 .experience-entry-img{
