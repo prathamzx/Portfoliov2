@@ -6,6 +6,7 @@ import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Project from './Components/Project';
+import Footer from './Components/Footer';
 import React from 'react';
 
 class App extends React.Component {
@@ -60,7 +61,8 @@ class App extends React.Component {
         <Education clicked={this.state.education}/>
         <Project clicked={this.state.project}/>
         <Navbar clickFunction={this.clickFunction}/>
-      <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back8.jpg'} />
+        <Footer/>
+      {/* <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back8.jpg'} /> */}
       </div>
     </div>
   );

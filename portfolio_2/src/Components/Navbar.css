@@ -32,8 +32,9 @@ button{
     position: relative;
     height:30px;
     width: fit-content;
-    top:40%;
+    /* top:40%; */
+    top: 50%;
     float: right;
-    /* transform: translate(1,-50%); */
+    transform: translate(0,-50%);
     
 }

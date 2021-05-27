@@ -35,7 +35,7 @@ class Navbar extends React.Component {
                     </button>
                     <button onClick={() => this.props.clickFunction("experience")}>
                         <a href="#experience">
-                            <span className="navbar-text">Industry</span>
+                            <span className="navbar-text">Experience</span>
                         </a>
                     </button>
 
