@@ -26,7 +26,7 @@
     position: absolute;
     top:100px;
     left:200px;  
-    background-color: #84552b;
+    background-color: #b58251;
     border-radius: 50%;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .home-text-name{
-    color: #84552b;
+    color: #b58251;
     font-family: fantasy;
     /* text-align: center; */
     font-size: 70px;
@@ -61,5 +61,5 @@
 }
 
 .home-text-title-web{
-    color: #84552b;
+    color: #b58251;
 }

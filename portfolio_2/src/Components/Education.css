@@ -5,7 +5,7 @@
 
 .education-container{
     height: 900px;
-    width:35%;
+    width:40%;
     position: absolute;
     top:2800px;
 }
@@ -23,7 +23,7 @@
     height: 80px;
     position: absolute;
     width:60%;
-    background-color: #84552b;
+    background-color: #b58251;
     border-top-left-radius: 30px;
     border-top-right-radius: 50%;
     left:15%;
@@ -44,7 +44,7 @@
     top:50%;
     text-align: center;
     transform: translate(0,-50%);
-    color: #84552b;
+    color: #b58251;
     font-family: fantasy;
     font-size: 40px;
 }
@@ -74,7 +74,7 @@
     left:35%;   
     font-size: 20px;
     font-weight: bold;
-    color: #84552b;
+    color: #b58251;
 }
 
 .education-text-entry-desc{

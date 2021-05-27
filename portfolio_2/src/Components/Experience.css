@@ -5,7 +5,7 @@
 
 .experience-container{
     height:800px;
-    width:55%;
+    width:45%;
     position: absolute;
     top:2780px;
     right: 0;
@@ -18,7 +18,7 @@
 .experience-label{
     height:180px;
     width:180px;
-    background-color: #84552b;
+    background-color: #b58251;
     border-radius: 50%;
     border-color: #30271e;
     border-style:double;
@@ -28,39 +28,44 @@
 }
 
 .experience-label-container{
-    height:200px;
+    height:80px;
     width:fit-content;
-    display: inline-flex;    
+    position: absolute;
+    top:-80px;
+    left:50%;
+    transform: translate(-50%,0%);
+    z-index: 1;
+    /* display: inline-flex;     */
 }
 
 .experience-label-text{
-    height: 100px;
-    width:240px;
+    height: 80px;
+    width:200%;
     background-color: #30271e;
-    position: relative;
-    top:50%;
-    left:-5%;
-    z-index: 1;
-    border-radius: 20px;
-    transform: translate(0%,-50%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 100px;
+}
+.experience-label-text-back{
+    background-color: #b58251;
+    border-top-left-radius: 30px;
 }
 
 .experience-label-text-style{
     font-size: 40px;
     font-family: fantasy;
-    text-align: right;
-    color: #84552b;
+    text-align: center;
+    color: #b58251;
     position: relative;
     top:50%;
     /* right: 5%; */
-    transform: translate(-5%,-50%);
+    transform: translate(0,-50%);
 }
 
 .experience-text{
     position: absolute;
     background-color: #30271e;
-    height: 800px;
-    width:85%;
+    height: 900px;
+    width:100%;
     top:100px;
     right: 0;   
     /* opacity: 0.95; */
@@ -71,53 +76,33 @@
 }
 
 .experience-entry{
-    height:200px;
-    width: 110%;
-    /* border-color: rgb(0, 0, 0);
-    border-style: dashed; 
-    border-width: 2px; */
-    right: 0%;
-    left:-10%;
-    top:5%;
+    height:220px;
+    width: 100%;
+    /* top:100px; */
+    margin-top: 55px;  
     position: relative;
+    border-radius: 70px;
     display: inline-flex;
+    background-color:#f0dbc1;
 }
 
 .experience-entry-logo{
-    height:180px;
-    width:180px;
+    height: 170px;
+    width:170px;
     background-color: #30271e;
     position: relative;
-    border-radius: 20px;
-    z-index: 1;
-    top:5%;
-    /* left:-10%; */
-}
-
-.experience-entry-connect{
-    height:0px;
-    width:0px;
-    background-color: transparent;
-    border-color: #f0dbc1;
-    border-style: solid;
-    border-width: 5em;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    position: absolute;
-    left: 7%;
-    /* left:-10%;  */
-    /* z-index: 5; */
     top:50%;
     transform: translate(0,-50%);
+    left:5%;
+    border-radius: 30px;
 }
 
-.experience-entry-img{
-    height: 80%;
-    width: 80%;
-    border-radius: 30px;
+.experience-entry-logo-img{
+    height: 150px;
+    width: 150px;
     position: relative;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    border-radius: 50px;
 }
