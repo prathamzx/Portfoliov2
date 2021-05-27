@@ -6,6 +6,8 @@ class Experience extends React.Component {
 
     render(){
         return(
+            <div key={this.props.clicked}>
+                <div id="experience"></div>
             <div className="experience-container">
                <div className="experience-label-container">
                <div className="experience-label"></div>
@@ -40,6 +42,7 @@ class Experience extends React.Component {
                 </div>
                 <div className="experience-entry-connect"></div>
                 </div>
+            </div>
             </div>
         );
     }

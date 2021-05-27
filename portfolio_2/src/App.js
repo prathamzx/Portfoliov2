@@ -10,28 +10,56 @@ import React from 'react';
 
 class App extends React.Component {
   state={
-    skills:0
+    skills:0,
+    project:0,
+    home:0,
+    about:0,
+    experience:0,
+    education:0
   }
-  clickFunction=()=>{
+  clickFunction=(component)=>{
     console.log("function called!!");
-    this.setState({
-      skills:this.state.skills+1
-    });
+    if (component==="skills") {
+      this.setState({
+        skills:this.state.skills+1
+      });
+    } else if (component==="project") {
+      this.setState({
+        project:this.state.project+1
+      });
+    } else if (component==="home") {
+      this.setState({
+        home:this.state.home+1
+      });
+    } else if (component==="about") {
+      this.setState({
+        about:this.state.about+1
+      });
+    } else if (component==="experience") {
+      this.setState({
+        experience:this.state.experience+1
+      });
+    } else if (component==="education") {
+      this.setState({
+        education:this.state.education+1
+      });
+    }
+    console.log(this.state);
   }
   render(){
   return (
     <div className="App">
       <div className="app-container">
         
-        <Home/>
+        <Home clicked={this.state.home}/>
         {/* <Social/> */}
         <Skills clicked={this.state.skills}/>
-        <About/>
+        <About clicked={this.state.about}/>
         {/* <Skills/> */}
-        <Experience/>
-        <Education/>
-        <Project/>
-        <Navbar clickFunction={this.clickFunction} clicked={this.state.skills}/>
+        <Experience clicked={this.state.experience}/>
+        <Education clicked={this.state.education}/>
+        <Project clicked={this.state.project}/>
+        <Navbar clickFunction={this.clickFunction}/>
       <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back8.jpg'} />
       </div>
     </div>

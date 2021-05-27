@@ -7,8 +7,9 @@ class About extends React.Component {
     render(){
         const aboutText="";
         return(
-        <div>
-            <div id="about" className="about-container">
+        <div key={this.props.clicked}>   
+            <div id="about"></div>
+            <div className="about-container">
                 <div className="about-container-text">
                     <div className="about-container-text-style">
                         {aboutText}

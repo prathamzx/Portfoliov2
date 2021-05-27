@@ -6,6 +6,8 @@ class Project extends React.Component {
 
     render(){
         return(
+            <div key={this.props.clicked}>
+                <div id="project"></div>
             <div className="project-container">
                <div className="project-label-text">
                    <div className="project-label-text-style">
@@ -49,6 +51,7 @@ class Project extends React.Component {
                        </div>
                    </div>
                </div>
+            </div>
             </div>
         );
     }

@@ -10,6 +10,11 @@
     border-radius: 30px;
 }
 
+#about{
+    position: absolute;
+    top:650px;
+}
+
 .bolt-minus-white{
     color: #d2d0d0;
     border-color: #d2d0d0;

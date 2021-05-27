@@ -6,6 +6,8 @@ class Home extends React.Component {
 
     render(){
         return(
+            <div key={this.props.clicked}>
+                <div id="home"></div>
             <div className="home-container">
                 <div className="home-pic-back-1"></div>
                 <div className="home-pic-back-2"></div>
@@ -21,6 +23,7 @@ class Home extends React.Component {
                         </span>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }

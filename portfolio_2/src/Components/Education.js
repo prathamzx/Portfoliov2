@@ -6,6 +6,8 @@ class Education extends React.Component {
 
     render(){
         return(
+            <div key={this.props.clicked}>
+                <div id="education"></div>
             <div className="education-container">
                 <div className="education-label-back"></div>
                 <div className="education-label">
@@ -42,6 +44,7 @@ class Education extends React.Component {
                 </div>
             </div>
             
+            </div>
             </div>
         );
     }
