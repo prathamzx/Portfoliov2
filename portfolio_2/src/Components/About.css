@@ -1,7 +1,7 @@
 .about-container{
     height:500px;
     width:70%;
-    background-color: #d2d0d0;
+    background-color: #f0dbc1;
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
@@ -51,7 +51,7 @@
     top:50%;
     right:20%;
     transform: translate(0,-50%);
-    color: #ff670f;
+    color: #84552b;
     font-family:fantasy;
     font-size:xx-large;
 }
@@ -75,7 +75,7 @@
 .about-label{
     height:150px;
     width:20%;
-    background-color: #413737;
+    background-color: #30271e;
     position: absolute;
     top:960px;
     left:-30px;

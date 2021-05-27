@@ -3,11 +3,11 @@
     width: 100%;
     position: absolute;
     top:4000px;
-    background-color: #413737;
+    background-color: #30271e;
 }
 
 .footer-copyright{
-    color: #d2d0d0;
+    color: #f0dbc1;
     position: relative;
     text-align: center;
     top:30%;
@@ -27,7 +27,7 @@
     height:50px;
     width:50px;
     border-style: solid;
-    border-color: #d2d0d0;
+    border-color: #f0dbc1;
     border-width: 2px;
     border-radius: 50%;
     margin-right: 10px;

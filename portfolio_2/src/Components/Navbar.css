@@ -1,7 +1,7 @@
 .navbar-container{
     height: 60px;
     width: 100vw;
-    background-color:	#413737;
+    background-color:	#30271e;
     position: fixed;
     z-index: 3;
     /* opacity: 0.9; */
@@ -21,7 +21,7 @@ button{
 .navbar-text{
     margin-left: 20px;
     margin-right: 20px;
-    color: #ff670f;
+    color: #84552b;
     /* font-weight: bold; */
     font-family:fantasy;
     font-size: 20px;

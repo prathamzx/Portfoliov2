@@ -58,12 +58,12 @@ class Skills extends React.Component {
             </div>
             <div className="skills-label">
                 <div className="skills-label-text">Skills</div>
-                <div className="skills-bolt-label-l">
+                {/* <div className="skills-bolt-label-l">
                 <div className="bolt-minus-black"></div>
                 </div>
                 <div className="skills-bolt-label-r">
                 <div className="bolt-minus-black"></div>
-                </div>
+                </div> */}
             </div>
             
             </div>

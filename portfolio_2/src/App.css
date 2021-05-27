@@ -1,5 +1,5 @@
 body{
-  background-color: #d2d0d0;
+  background-color: #fff;
   overflow-x: hidden;
 }
 
@@ -16,5 +16,5 @@ body{
   width: 100vw;
   position: fixed;
   z-index: -1;
-  opacity: 0.9;
+  /* opacity: 0.97; */
 }

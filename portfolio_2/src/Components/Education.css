@@ -4,16 +4,16 @@
 }
 
 .education-container{
-    height: 1050px;
+    height: 900px;
     width:35%;
     position: absolute;
     top:2800px;
 }
 
 .education-text{
-    height: 1050px;
+    height: 900px;
     width:100%;
-    background-color: #d2d0d0;
+    background-color: #30271e;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     /* opacity: 0.95; */
@@ -23,7 +23,7 @@
     height: 80px;
     position: absolute;
     width:60%;
-    background-color: #ff670f;
+    background-color: #84552b;
     border-top-left-radius: 30px;
     border-top-right-radius: 50%;
     left:15%;
@@ -32,7 +32,7 @@
 .education-label{
     height: 80px;
     width:60%;
-    background-color: #413737;
+    background-color: #30271e;
     border-top-left-radius: 120px;
     border-top-right-radius: 30px;
     position: relative;
@@ -44,7 +44,7 @@
     top:50%;
     text-align: center;
     transform: translate(0,-50%);
-    color: #ff670f;
+    color: #84552b;
     font-family: fantasy;
     font-size: 40px;
 }
@@ -52,7 +52,7 @@
     /* border-style: dashed; */
     position: relative;
     /* border-width: 2px; */
-    height:500px;
+    height:440px;
     width: 100%;
 }
 .education-text-entry-cover{
@@ -62,10 +62,10 @@
 }
 .education-text-entry-dp{
     /* height:150px; */
-    width:30%;
+    width: 25%;
     border-radius: 50%;
     position: relative;
-    top:-20%;
+    top:-10%;
 }
 
 .education-text-entry-title{
@@ -74,12 +74,16 @@
     left:35%;   
     font-size: 20px;
     font-weight: bold;
+    color: #84552b;
 }
 
 .education-text-entry-desc{
     height: 200px;
-    width:80%;
+    width:90%;
+    background-color: #f0dbc1;
     position: absolute;
     right: 0;
-    top:300px;
+    top: 200px;
+    border-bottom-left-radius : 30px;
+    
 }
