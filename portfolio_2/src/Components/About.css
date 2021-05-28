@@ -43,6 +43,9 @@
 .about-container-text-style{
     font-size: 20px;
     color: #413737;
+    height:450px;
+    width: 100%;
+    /* display: inline-flex; */
     /* font-family: fantasy; */
 }
 
@@ -56,22 +59,6 @@
     font-size:xx-large;
 }
 
-
-.bolt-minus-black{
-    color: #d2d0d0;
-    border-color: #413737;
-    height: 12px;
-    width: 14px;
-    border-width: 3px;
-    border-style: solid;
-    position: absolute;
-    margin-top: 6.5px;
-    margin-left:-2px;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-}
-
 .about-label{
     height:150px;
     width:20%;
@@ -82,67 +69,20 @@
     border-radius: 30px;
 }
 
-.about-bolt-tl{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background-color: #413737;
-    border-radius: 50%;
-    top:10px;
-    left:10px;
+.about-text{
+    height:100%;
+    width:70%;
+    position: absolute;
+    left:0;
+    font-family:cursive;
+    color: #30271e;
+    font-size:85%;
+    text-align: justify;
+    /* border-width: 2px;
+    border-style: solid; */
 }
 
-.about-bolt-tr{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background-color: #413737;
-    border-radius: 50%;
-    float: right;
-    right:10px;
-    bottom: 10px;   
-}
-
-.about-bolt-bl{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background-color: #413737;
-    border-radius: 50%;
-    top:450px;
-    left:10px;   
-}
-
-.about-bolt-br{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background-color: #413737;
-    border-radius: 50%;
-    float: right;
-    right:10px;
-    top:430px;   
-}
-
-.about-label-bolt-tr{
-    position: relative;
-    height: 15px;
-    width: 15px;
-    right:10px;
-    top:10px;
-    background-color: #ff670f;
-    border-radius: 50%;
-    float: right;
-}
-
-.about-label-bolt-br{
-    position: relative;
-    height: 15px;
-    width: 15px;
-    /* right:10px; */
-    right:-5px;
-    top:125px;
-    background-color: #ff670f;
-    border-radius: 50%;
-    float: right;
+.about-text-quote{
+    font-weight: bold;
+    font-size: 25px;
 }
