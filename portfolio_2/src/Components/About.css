@@ -4,11 +4,23 @@
     background-color: #f0dbc1;
     position: absolute;
     left: 50%;
+    opacity: 0;
     transform: translate(-50%,0);
     top:780px;
     /* opacity: 0.95;  */
     border-radius: 30px;
+    animation: 1s fade-in forwards;
 }
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 #about{
     position: absolute;
@@ -42,7 +54,7 @@
 
 .about-container-text-style{
     font-size: 20px;
-    color: #413737;
+    color: #30271e;
     height:450px;
     width: 100%;
     /* display: inline-flex; */
@@ -65,9 +77,20 @@
     background-color: #30271e;
     position: absolute;
     top:960px;
-    left:-30px;
+    left:-100%;
     border-radius: 30px;
+    animation: 1s slide-pop-right 0.1s  forwards;
 }
+
+@keyframes slide-pop-right {
+    0%{
+        left:-100%;
+    }
+    100%{
+        left:-30px;
+    }
+}
+
 
 .about-text{
     height:100%;
@@ -75,7 +98,7 @@
     position: absolute;
     left:0;
     font-family:cursive;
-    color: #30271e;
+    color: #30271e;                                                                                        ;
     font-size:85%;
     text-align: justify;
     /* border-width: 2px;
@@ -85,4 +108,76 @@
 .about-text-quote{
     font-weight: bold;
     font-size: 25px;
+}
+
+.about-text-right{
+    position: absolute;
+    height:80%;
+    width:25%;
+    top:20%;
+    right:0;
+    /* border-width: 2px;
+    border-style: solid; */
+}
+
+.about-resume{
+    height: 70px;
+    width:80%;
+    position: absolute;
+    background-color: #30271e;
+    left:50%;
+    transform: translate(-50%,0);
+    border-radius: 30px;
+}
+
+.about-resume-text{
+    color:#b58251;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translate(0,-50%);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.about-contact{
+    width: 100%;
+    height:fit-content;
+    /* border-width: 2px;
+    border-style: solid; */
+    position: relative;
+    top:120px; 
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.about-contact-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:50%;
+    transform: translate(0,-50%);
+    border-width: 2px;
+    border-style: solid;
+}
+.about-contact-entry{
+    /* height: 50%; */
+    width: 75%;
+    /* border-width: 2px;
+    border-style: solid; */
+    position: relative;
+    top:50%;
+    transform: translate(0,-50%);
+    color: #30271e;
+    font-size: 80%;
+    left:10%;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.about-contact-entry-text{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
 }

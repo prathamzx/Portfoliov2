@@ -73,7 +73,9 @@
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     /* border-radius: 50px; */
+    
 }
+
 
 .experience-entry{
     height:220px;
@@ -84,6 +86,7 @@
     border-radius: 70px;
     display: inline-flex;
     background-color:#f0dbc1;
+    /* animation: 4s pop-out forwards; */
 }
 
 .experience-entry-logo{

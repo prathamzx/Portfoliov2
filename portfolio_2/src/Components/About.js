@@ -32,14 +32,31 @@ class About extends React.Component {
 
                             Do have a look on what I have to offer and get in touch.
                         </div>
-                        {/* <div className="about-text-right">
-                            Resume
-                            <br/>
-                            W# (+91) 82951 97406
-                            <br/>
-                            L# Dehradun, Uttarakhand, India, 248001
-                            <br/>
-                        </div> */}
+                        <div className="about-text-right">
+                            <a href={process.env.PUBLIC_URL + 'Pratham_Agarwal_Resume.pdf'} download>
+                            <div className="about-resume">
+                                <div className="about-resume-text">
+                                    Resume
+                                </div>
+                            </div>
+                            </a>
+                            <div className="about-contact">
+                                <div className="about-contact-icon"></div>
+                                <div className="about-contact-entry">
+                                <div className="about-contact-entry-text">
+                                    (+91) 82951 97406
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="about-contact">
+                                <div className="about-contact-icon"></div>
+                                <div className="about-contact-entry">
+                                    <div className="about-contact-entry-text">
+                                Dehradun, Uttarakhand, India, 248001
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
