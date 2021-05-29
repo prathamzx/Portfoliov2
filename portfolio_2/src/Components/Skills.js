@@ -11,11 +11,13 @@ class Skills extends React.Component {
                 <div className="skills-label-left"></div>
                 <div className="skills-label-right"></div>
             <div className="skills-container-left">
+                <div className="skills-bar">
                 <div className="bar learning" data-skill="TDD"></div>
                 <div className="bar back basic" data-skill="Python"></div>
                 <div className="bar back intermediate" data-skill="C#"></div>
                 <div className="bar front advanced" data-skill="CSS3"></div>
                 <div className="bar front expert" data-skill="HTML5"></div>
+                </div>
             </div>
             <div className="skills-container-right">
                 <div className="progress-box">
@@ -58,12 +60,6 @@ class Skills extends React.Component {
             </div>
             <div className="skills-label">
                 <div className="skills-label-text">Skills</div>
-                {/* <div className="skills-bolt-label-l">
-                <div className="bolt-minus-black"></div>
-                </div>
-                <div className="skills-bolt-label-r">
-                <div className="bolt-minus-black"></div>
-                </div> */}
             </div>
             
             </div>
