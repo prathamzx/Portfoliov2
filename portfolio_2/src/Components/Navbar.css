@@ -36,5 +36,6 @@ button{
     top: 50%;
     float: right;
     transform: translate(0,-50%);
+    margin-right: 30px;
     
 }

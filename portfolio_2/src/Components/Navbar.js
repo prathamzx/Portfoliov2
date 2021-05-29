@@ -8,36 +8,25 @@ class Navbar extends React.Component {
         return(
             <div className="navbar-container">
                 <div className="navbar-buttons">
-                    <button onClick={() => this.props.clickFunction("home")}>
-                        <a href="#home">
+                        <a href="#home" onClick={() => this.props.clickFunction("home")}>
                             <span className="navbar-text">Home</span>
                         </a>
-                    </button>
-                    <button onClick={() => this.props.clickFunction("about")}>
-                        <a href="#about">
+                        <a href="#about" onClick={() => this.props.clickFunction("about")}>
                             <span className="navbar-text">About</span>
                         </a>
-                    </button>
-                    <button onClick={() => this.props.clickFunction("skills")}>
-                        <a href="#skills">
+                        <a href="#skills" onClick={() => this.props.clickFunction("skills")}>
                             <span className="navbar-text">Skills</span>
                         </a>
-                    </button>
-                    <button onClick={() => this.props.clickFunction("project")}>
-                        <a href="#project">
+                        <a href="#project" onClick={() => this.props.clickFunction("project")}>
                             <span className="navbar-text">Projects</span>
                         </a>
-                    </button>
-                    <button onClick={() => this.props.clickFunction("education")}>
-                        <a href="#education">
-                            <span className="navbar-text">Education</span>
-                        </a>
-                    </button>
-                    <button onClick={() => this.props.clickFunction("experience")}>
-                        <a href="#experience">
+                        <a href="#experience" onClick={() => this.props.clickFunction("experience")}>
                             <span className="navbar-text">Experience</span>
                         </a>
-                    </button>
+                        <a href="#education" onClick={() => this.props.clickFunction("education")}>
+                            <span className="navbar-text">Education</span>
+                        </a>
+                    
 
                     
                 </div>

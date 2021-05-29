@@ -61,7 +61,7 @@
     color: #b58251;
     font-family: fantasy;
     font-size: 0;
-    animation: 1s pop-out 0.5s forwards;
+    animation: 1s pop-out forwards;
 }
 
 .skills-label{
@@ -129,12 +129,8 @@
 }
 
 @keyframes load{
-    from {
-        opacity: 0;
+    from { 
       width: 0%
-    }
-    to{
-        opacity: 1;
     }
   }
 @-webkit-keyframes load{
@@ -205,8 +201,8 @@
     display: inline-block;
     padding: 5px 0 5px 10px;
     border-radius: inherit;
-    opacity: 0;
-    animation: load 2s 1s forwards;
+    /* opacity: 0; */
+    animation: load 2s  forwards;
     /* -webkit-animation: load 2s 0s;
     -moz-animation: load 2s 0s;
     -o-animation: load 2s 0s; */
@@ -345,16 +341,16 @@ svg circle{
 }
 
 .circle-25{
-    animation: 2s stroke-25 1s forwards;
+    animation: 2s stroke-25  forwards;
 }
 .circle-50{
-    animation: 2s stroke-50 1s forwards;
+    animation: 2s stroke-50  forwards;
 }
 .circle-75{
-    animation: 2s stroke-75 1s forwards;
+    animation: 2s stroke-75  forwards;
 }
 .circle-100{
-    animation: 2s stroke-100 1s forwards;
+    animation: 2s stroke-100  forwards;
 }
 
 

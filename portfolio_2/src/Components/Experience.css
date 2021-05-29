@@ -5,7 +5,7 @@
 
 .experience-container{
     height:800px;
-    width:45%;
+    width:100%;
     position: absolute;
     top:2780px;
     right: 0;
@@ -32,8 +32,8 @@
     width:fit-content;
     position: absolute;
     top:-80px;
-    left:50%;
-    transform: translate(-50%,0%);
+    left:10%;
+    /*transform: translate(-50%,0%); */
     z-index: 1;
     /* display: inline-flex;     */
 }
@@ -64,14 +64,14 @@
 .experience-text{
     position: absolute;
     background-color: #30271e;
-    height: 900px;
+    height: 330px;
     width:100%;
     top:100px;
     right: 0;   
     /* opacity: 0.95; */
     /* left:10%; */
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
     /* border-radius: 50px; */
     
 }
@@ -79,7 +79,8 @@
 
 .experience-entry{
     height:220px;
-    width: 100%;
+    width: 32%;
+    margin-left:1%;
     /* top:100px; */
     margin-top: 55px;  
     position: relative;

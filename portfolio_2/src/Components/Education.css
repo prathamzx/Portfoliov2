@@ -1,42 +1,45 @@
 #education{
     position: absolute;
-    top:2700px;
+    top:3150px;
 }
 
 .education-container{
-    height: 900px;
-    width:40%;
+    height: 500px;
+    width:100%;
     position: absolute;
-    top:2800px;
+    top:3350px;
 }
 
 .education-text{
-    height: 900px;
+    height: 480px;
     width:100%;
+    display: inline-flex;
     background-color: #30271e;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
     /* opacity: 0.95; */
 }
 
 .education-label-back{
     height: 80px;
     position: absolute;
-    width:60%;
+    width:360px;
     background-color: #b58251;
     border-top-left-radius: 30px;
     border-top-right-radius: 50%;
-    left:15%;
+    right:10%;
+    top:-80px
 }
 
 .education-label{
     height: 80px;
-    width:60%;
+    width:360px;
     background-color: #30271e;
     border-top-left-radius: 120px;
     border-top-right-radius: 30px;
-    position: relative;
-    left:15%;
+    position: absolute;
+    right:10%;
+    top:-80px;
 }
 
 .education-label-text{
@@ -52,8 +55,11 @@
     /* border-style: dashed; */
     position: relative;
     /* border-width: 2px; */
-    height:440px;
-    width: 100%;
+    top:50%;
+    transform: translate(0,-50%);
+    height:400px;
+    width: 41%;
+    margin-left: 6%;
 }
 .education-text-entry-cover{
     width: 100%;
