@@ -242,9 +242,9 @@
     height:80%;
     width:80%;
     position: relative;
-    top: 55%;
+    top: 50%;
     left:50%;
-    opacity: 1;
+
     transform: translate(-50%,-50%);
     /* animation: 1s fade-in-progress-box 1s forwards; */
 }
@@ -258,90 +258,67 @@
     }
 }
 
-.progress-box-row-1{
-    height: 150px;
-    /* width:350px; */
+
+.progress-box-row{
+    width: 100%;
+    height: 30%;
+    /* border-style: dashed;
+    border-width: 2px; */
+    display: inline-flex;
+    margin-top: 2.5%;
+}
+
+.progress-box-col{
+    width:46%;
+    height: 100%;
+    /* border-style: dashed;
+    border-width: 2px; */
+    margin-left: 2%;
+}
+
+.progress-box-entry{
     position: relative;
+    height: 75%;
+    width: 70%;
     left: 50%;
-    margin-top: 20px;
-    transform: translate(-50%,0%);
+    transform: translate(-50%,0);
+    /* background-color: burlywood; */
 }
 
-.progress-box-row-2{
-    height: 150px;
-    /* width:350px; */
+.progress-box-svg{
+    height: 100%;
+    width:100%;
     position: relative;
-    left: 50%;
-    margin-top: 20px;
-    transform: translate(-50%,0%);
+    /* top:0%; */
+    /* transform: translate(0,-50%); */
+    
 }
 
-.progress-box-row-3{
-    height: 150px;
-    /* width:350px; */
-    position: relative;
-    left: 50%;
-    margin-top: 20px;
-    transform: translate(-50%,0%);
+.progress-box-entry-label{
+    width: 100%;
+    text-align: center;
+    color: #f0dbc1;
+    font-size: 1.1vw;
+    margin-top: 10px;
+    font-family: cursive;
+    /* overflow: hidden; */
+    white-space: nowrap;
 }
-
-
-.progress-box-svg-1{
-    height: 150px;
-    width:150px;
-    position: absolute;
-    left: 10%;
-}
-
-
-.progress-box-svg-2{
-    height: 150px;
-    width:150px;
-    position: absolute;
-    right: 10%;
-}
-
-.progress-box-svg-3{
-    height: 150px;
-    width:150px;
-    position: absolute;
-    left: 10%;
-}
-
-.progress-box-svg-4{
-    height: 150px;
-    width:150px;
-    position: absolute;
-    right: 10%;
-}
-
-.progress-box-svg-5{
-    height: 150px;
-    width:150px;
-    position: absolute;
-    left: 10%;
-}
-
-.progress-box-svg-6{
-    height: 150px;
-    width:150px;
-    position: absolute;
-    right: 10%;
-}
-
 
 svg circle{
     fill:rgba(0, 0, 0, 0.39);
-    stroke-width: 20;
+    stroke-width: 15%;
     stroke:#b58251;
     /* transform: translate(px,5px); */
-    stroke-dasharray: 380;
-    stroke-dashoffset:380;
+    stroke-dasharray: 220%;
+    stroke-dashoffset:220%;
+    
     /* stroke-linecap: round; */
 }
 
 .circle-25{
     animation: 2s stroke-25  forwards;
+    
 }
 .circle-50{
     animation: 2s stroke-50  forwards;
@@ -354,23 +331,23 @@ svg circle{
 }
 
 
-svg{
+/* svg{
     transform: rotate(-90deg);
-}
+} */
 
 @keyframes stroke-25 {
     100%{
-        stroke-dashoffset: 275;
+        stroke-dashoffset: 165%;
     }
 }
 @keyframes stroke-50 {
     100%{
-        stroke-dashoffset: 190;
+        stroke-dashoffset: 110%;
     }
 }
 @keyframes stroke-75 {
     100%{
-        stroke-dashoffset: 95;
+        stroke-dashoffset: 55%;
     }
 }
 @keyframes stroke-100 {
@@ -378,15 +355,3 @@ svg{
         stroke-dashoffset: 0;
     }
 }
-
-/* svg circle:nth-child(1){
-    stroke-dashoffset: 0;
-    stroke:#f3f3f3;
-}
-
-
-svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 45) / 100);
-    stroke:#8a1f1f;
-} */
-

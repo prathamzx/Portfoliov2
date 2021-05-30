@@ -21,11 +21,66 @@ class Skills extends React.Component {
             </div>
             <div className="skills-container-right">
                 <div className="progress-box">
-                    <div className="progress-box-row-1">
-                    <svg className="progress-box-svg-1">
+                    <div className="progress-box-row">
+                        <div className="progress-box-col">
+                            <div className="progress-box-entry">
+                                <svg className="progress-box-svg">
+                                    <circle className="circle-75" cx="50%" cy="50%" r="35%"></circle>
+                                </svg>
+                            </div>
+                        <div className="progress-box-entry-label">Website Development</div>
+                        </div>
+                        <div className="progress-box-col">
+                        <div className="progress-box-entry">
+                                <svg className="progress-box-svg">
+                                    <circle className="circle-75" cx="50%" cy="50%" r="35%"></circle>
+                                </svg>
+                            </div>
+                        <div className="progress-box-entry-label">Competitive Programming</div>
+                        </div>
+                    </div>
+                    <div className="progress-box-row">
+                        <div className="progress-box-col">
+                        <div className="progress-box-entry">
+                                <svg className="progress-box-svg">
+                                    <circle className="circle-50" cx="50%" cy="50%" r="35%"></circle>
+                                </svg>
+                            </div>
+                        <div className="progress-box-entry-label">AI/ML</div>
+                        </div>
+                        <div className="progress-box-col">
+                        <div className="progress-box-entry">
+                                <svg className="progress-box-svg">
+                                    <circle className="circle-25" cx="50%" cy="50%" r="35%"></circle>
+                                </svg>
+                            </div>
+                        <div className="progress-box-entry-label">Desktop App Development </div>
+                        </div>
+                    </div>
+                    <div className="progress-box-row">
+                        <div className="progress-box-col">
+                        <div className="progress-box-entry">
+                                <svg className="progress-box-svg">
+                                    <circle className="circle-75" cx="50%" cy="50%" r="35%"></circle>
+                                </svg>
+                            </div>
+                        <div className="progress-box-entry-label">Automation</div>
+                        </div>
+                        <div className="progress-box-col">
+                        <div className="progress-box-entry">
+                                <svg className="progress-box-svg">
+                                    <circle className="circle-25" cx="50%" cy="50%" r="35%"></circle>
+                                </svg>
+                            </div>
+                        <div className="progress-box-entry-label">Cloud Computing</div>
+                        </div>
+                    </div>
+                        
+                    {/* <svg className="progress-box-svg-1">
                         <circle className="circle-25" cx="80" cy="80" r="60"></circle>
-
                     </svg>
+                   
+                    </div>
                     <svg className="progress-box-svg-2">
                         <circle className="circle-50" cx="80" cy="80" r="60"></circle>
 
@@ -53,9 +108,10 @@ class Skills extends React.Component {
                     <svg className="progress-box-svg-6">
                         <circle className="circle-50" cx="80" cy="80" r="60"></circle>
 
-                    </svg>
+                    </svg> */}
                     
-                    </div>
+                    
+                    
                 </div>
             </div>
             <div className="skills-label">
