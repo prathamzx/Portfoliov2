@@ -12,11 +12,18 @@ class Skills extends React.Component {
                 <div className="skills-label-right"></div>
             <div className="skills-container-left">
                 <div className="skills-bar">
-                <div className="bar learning" data-skill="TDD"></div>
-                <div className="bar back basic" data-skill="Python"></div>
-                <div className="bar back intermediate" data-skill="C#"></div>
-                <div className="bar front advanced" data-skill="CSS3"></div>
-                <div className="bar front expert" data-skill="HTML5"></div>
+                <div className="bar-label">Design / Frontend</div>
+                <div className="bar expert" data-skill="HTML5 | CSS3 | Bootstrap4 | Flask"></div>
+                <div className="bar advanced" data-skill="ReactJS | WPF"></div>
+                <div className="bar-label">Programming / Backend</div>
+                <div className="bar advanced" data-skill="C++ | Python"></div>
+                <div className="bar intermediate" data-skill="C | C# | PHP | ExpressJS"></div>
+                <div className="bar-label">Database</div>
+                <div className="bar advanced" data-skill="MySql"></div>
+                <div className="bar intermediate" data-skill="MongoDB | Firebase"></div>
+                <div className="bar-label">DevOps</div>
+                <div className="bar advanced" data-skill="Git | Jira | Jenkins | Postman | WEKA"></div>
+                <div className="bar intermediate" data-skill="AWS"></div>
                 </div>
             </div>
             <div className="skills-container-right">

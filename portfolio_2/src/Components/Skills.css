@@ -130,7 +130,7 @@
 
 @keyframes load{
     from { 
-      width: 0%
+      width: 0%;
     }
   }
 @-webkit-keyframes load{
@@ -180,6 +180,19 @@
     }
 }
 
+.bar-label{
+    position: relative;
+    width: 70%;
+    color: #b58251;
+    left:50%;
+    transform: translate(-50%,0);
+    font-size: 130%;
+    font-family: cursive;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
 .bar{
     background-color: rgba(0, 0, 0, 0.39);
     padding: 2px;
@@ -203,6 +216,8 @@
     border-radius: inherit;
     /* opacity: 0; */
     animation: load 2s  forwards;
+    overflow: hidden;
+    white-space: nowrap;
     /* -webkit-animation: load 2s 0s;
     -moz-animation: load 2s 0s;
     -o-animation: load 2s 0s; */
