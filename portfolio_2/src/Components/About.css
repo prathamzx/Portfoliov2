@@ -1,7 +1,7 @@
 .about-container{
     height:500px;
     width:70%;
-    background-color: #f0dbc1;
+    background-color: var(--light);
     position: absolute;
     left: 50%;
     opacity: 0;
@@ -27,20 +27,6 @@
     top:650px;
 }
 
-.bolt-minus-white{
-    color: #d2d0d0;
-    border-color: #d2d0d0;
-    height: 16px;
-    width: 24px;
-    border-width: 2px;
-    border-style: solid;
-    position: absolute;
-    margin-top: 10px;
-    margin-left:-2px;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-}
 
 .about-container-text{
     height: 450px;
@@ -54,7 +40,7 @@
 
 .about-container-text-style{
     font-size: 20px;
-    color: #30271e;
+    color: var(--dark);
     height:450px;
     width: 100%;
     /* display: inline-flex; */
@@ -66,7 +52,7 @@
     top:50%;
     right:20%;
     transform: translate(0,-50%);
-    color: #b58251;
+    color: var(--medium);
     font-family:fantasy;
     font-size:xx-large;
 }
@@ -74,7 +60,7 @@
 .about-label{
     height:150px;
     width:20%;
-    background-color: #30271e;
+    background-color: var(--dark);
     position: absolute;
     top:960px;
     left:-100%;
@@ -98,7 +84,7 @@
     position: absolute;
     left:0;
     font-family:cursive;
-    color: #30271e;                                                                                        ;
+    color: var(--dark);                                                                                        ;
     font-size:85%;
     text-align: justify;
     /* border-width: 2px;
@@ -124,14 +110,14 @@
     height: 70px;
     width:80%;
     position: absolute;
-    background-color: #30271e;
+    background-color: var(--dark);
     left:50%;
     transform: translate(-50%,0);
     border-radius: 30px;
 }
 
 .about-resume-text{
-    color:#b58251;
+    color:var(--medium);
     text-align: center;
     position: relative;
     top:50%;
@@ -169,7 +155,7 @@
     position: relative;
     top:50%;
     transform: translate(0,-50%);
-    color: #30271e;
+    color: var(--dark);
     font-size: 80%;
     left:10%;
     font-family: cursive;

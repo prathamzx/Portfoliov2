@@ -3,11 +3,11 @@
     width: 100%;
     position: absolute;
     top:3900px;
-    background-color: #30271e;
+    background-color: var(--dark);
 }
 
 .footer-copyright{
-    color: #f0dbc1;
+    color: var(--light);
     position: absolute;
     right: 5%;
     top:50%;
@@ -28,7 +28,7 @@
     height:50px;
     width:50px;
     border-style: solid;
-    border-color: #f0dbc1;
+    border-color: var(--light);
     border-width: 2px;
     border-radius: 50%;
     margin-right: 10px;

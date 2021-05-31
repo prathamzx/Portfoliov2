@@ -6,7 +6,7 @@
 .skills-container-left{
     height: 700px;
     width: 39%;
-    background-color: #30271e;
+    background-color: var(--dark);
     top:1300px;
     position: absolute;
     /* border-radius: 30px; */
@@ -43,7 +43,7 @@
 .skills-container-right{
     height: 700px;
     width: 39%;
-    background-color: #30271e;
+    background-color: var(--dark);
     top:1300px;
     position: absolute;
     /* border-radius: 30px; */
@@ -58,7 +58,7 @@
     left: 50%;
     top:50%;
     transform: translate(-50%,-50%);
-    color: #b58251;
+    color: var(--medium);
     font-family: fantasy;
     font-size: 0;
     animation: 1s pop-out forwards;
@@ -67,7 +67,7 @@
 .skills-label{
     height:220px;
     width:220px;
-    background-color: #30271e;
+    background-color: var(--dark);
     position: absolute;
     top:1500px;
     left: 50%;
@@ -92,7 +92,7 @@
     height:0px;
     width:0px;
     background-color: transparent;
-    border-color: #f0dbc1;
+    border-color: var(--light);
     border-style: solid;
     border-width: 120px;
     position: absolute;
@@ -113,7 +113,7 @@
     height:0px;
     width:0px;
     background-color: transparent;
-    border-color: #f0dbc1;
+    border-color: var(--light);
     border-style: solid;
     border-width: 120px;
     position: absolute;
@@ -183,7 +183,7 @@
 .bar-label{
     position: relative;
     width: 70%;
-    color: #b58251;
+    color: var(--medium);
     left:50%;
     transform: translate(-50%,0);
     font-size: 130%;
@@ -199,7 +199,7 @@
     border-radius: 15px;
     margin-bottom: 15px;
     font-size: 14px;
-    color: #f0dbc1;
+    color: var(--light);
     font-weight: bold;
     width:70%;
     position: relative;
@@ -210,7 +210,7 @@
 }
 .bar::before{
     content:  attr(data-skill);
-    background-color: #b58251;
+    background-color: var(--medium);
     display: inline-block;
     padding: 5px 0 5px 10px;
     border-radius: inherit;
@@ -224,10 +224,10 @@
 }
 
 .bar.front::before{
-    background-color: #b58251;
+    background-color: var(--medium);
 }
 .bar.back::before{
-    background-color: #b58251;
+    background-color: var(--medium);
 }
 
 .bar.learning::before{
@@ -312,7 +312,7 @@
 .progress-box-entry-label{
     width: 100%;
     text-align: center;
-    color: #f0dbc1;
+    color: var(--light);
     font-size: 1.1vw;
     margin-top: 10px;
     font-family: cursive;
@@ -323,7 +323,7 @@
 svg circle{
     fill:rgba(0, 0, 0, 0.39);
     stroke-width: 15%;
-    stroke:#b58251;
+    stroke:var(--medium);
     /* transform: translate(px,5px); */
     stroke-dasharray: 220%;
     stroke-dashoffset:220%;

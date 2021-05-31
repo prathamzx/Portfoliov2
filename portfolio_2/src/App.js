@@ -7,6 +7,7 @@ import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Project from './Components/Project';
 import Footer from './Components/Footer';
+import Theme from './Components/Theme';
 import React from 'react';
 
 class App extends React.Component {
@@ -62,6 +63,7 @@ class App extends React.Component {
         <Project clicked={this.state.project}/>
         <Navbar clickFunction={this.clickFunction}/>
         <Footer/>
+        <Theme/>
       <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back9.jpg'} />
       </div>
     </div>

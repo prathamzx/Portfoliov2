@@ -2,13 +2,13 @@ import React from 'react';
 import './Home.css';
 
 class Home extends React.Component {
-    
 
     render(){
         return(
             <div key={this.props.clicked}>
                 <div id="home"></div>
             <div className="home-container">
+                {/* <button onClick={()=>{this.changeColor()}} className="test-button">Click me</button> */}
                 <div className="home-pic-back-1"></div>
                 <div className="home-pic-back-2"></div>
                 <div className="home-text">

@@ -18,9 +18,9 @@
 .experience-label{
     height:180px;
     width:180px;
-    background-color: #b58251;
+    background-color: var(--medium);
     border-radius: 50%;
-    border-color: #30271e;
+    border-color: var(--dark);
     border-style:double;
     border-width: 10px;
     z-index: 2;
@@ -41,12 +41,12 @@
 .experience-label-text{
     height: 80px;
     width:200%;
-    background-color: #30271e;
+    background-color: var(--dark);
     border-top-right-radius: 20px;
     border-top-left-radius: 100px;
 }
 .experience-label-text-back{
-    background-color: #b58251;
+    background-color: var(--medium);
     border-top-left-radius: 30px;
 }
 
@@ -54,7 +54,7 @@
     font-size: 40px;
     font-family: fantasy;
     text-align: center;
-    color: #b58251;
+    color: var(--medium);
     position: relative;
     top:50%;
     /* right: 5%; */
@@ -63,7 +63,7 @@
 
 .experience-text{
     position: absolute;
-    background-color: #30271e;
+    background-color: var(--dark);
     height: 330px;
     width:100%;
     top:100px;
@@ -86,14 +86,14 @@
     position: relative;
     border-radius: 70px;
     display: inline-flex;
-    background-color:#f0dbc1;
+    background-color:var(--light);
     /* animation: 4s pop-out forwards; */
 }
 
 .experience-entry-logo{
     height: 170px;
     width:170px;
-    background-color: #30271e;
+    background-color: var(--dark);
     position: relative;
     top:50%;
     transform: translate(0,-50%);

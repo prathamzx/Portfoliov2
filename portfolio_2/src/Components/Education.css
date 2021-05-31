@@ -14,7 +14,7 @@
     height: 480px;
     width:100%;
     display: inline-flex;
-    background-color: #30271e;
+    background-color: var(--dark);
     /* border-top-right-radius: 50px;
     border-bottom-right-radius: 50px; */
     /* opacity: 0.95; */
@@ -24,7 +24,7 @@
     height: 80px;
     position: absolute;
     width:360px;
-    background-color: #b58251;
+    background-color: var(--medium);
     border-top-left-radius: 30px;
     border-top-right-radius: 50%;
     right:10%;
@@ -34,7 +34,7 @@
 .education-label{
     height: 80px;
     width:360px;
-    background-color: #30271e;
+    background-color: var(--dark);
     border-top-left-radius: 120px;
     border-top-right-radius: 30px;
     position: absolute;
@@ -47,7 +47,7 @@
     top:50%;
     text-align: center;
     transform: translate(0,-50%);
-    color: #b58251;
+    color: var(--medium);
     font-family: fantasy;
     font-size: 40px;
 }
@@ -65,7 +65,7 @@
     width: 100%;
     height: 200px;
     border-top-right-radius: 50px;
-    background-color: #30271e;
+    background-color: var(--dark);
 }
 .education-text-entry-dp{
     /* height:150px; */
@@ -81,7 +81,7 @@
     height: 150px;
     position: relative;
     top:-10%;
-    background-color: #f0dbc1;
+    background-color: var(--light);
 }
 
 
@@ -91,13 +91,13 @@
     left:35%;   
     font-size: 20px;
     font-weight: bold;
-    color: #b58251;
+    color: var(--medium);
 }
 
 .education-text-entry-desc{
     height: 200px;
     width:90%;
-    background-color: #f0dbc1;
+    background-color: var(--light);
     position: absolute;
     right: 0;
     top: 200px;
