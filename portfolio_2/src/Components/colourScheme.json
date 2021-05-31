@@ -1,12 +1,22 @@
 {
     "scheme1":{
-        "dark":"#30271e",
-        "medium":"#b58251",
-        "light":"#f0dbc1"
-    },
-    "scheme2":{
         "dark":"#19323C",
         "medium":"#F2545B",
         "light":"#F3F7F0"
+    },
+    "scheme2":{
+        "dark":"#4D4861",
+        "medium":"#9E7682",
+        "light":"#E1DEE3"
+    },
+    "scheme3":{
+        "dark":"#1E1E24",
+        "medium":"#FB9F89",
+        "light":"#E1DEE3"
+    },
+    "scheme4":{
+        "dark":"#393D3F",
+        "medium":"#9CC4B2",
+        "light":"#E1DEE3"
     }
 }

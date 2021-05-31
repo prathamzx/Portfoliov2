@@ -64,7 +64,7 @@ class App extends React.Component {
         <Navbar clickFunction={this.clickFunction}/>
         <Footer/>
         <Theme/>
-      <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back9.jpg'} />
+      {/* <img className="app-myimg" src={process.env.PUBLIC_URL + '/grayBackground/back9.jpg'} /> */}
       </div>
     </div>
   );

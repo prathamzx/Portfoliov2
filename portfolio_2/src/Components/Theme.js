@@ -15,6 +15,8 @@ class Theme extends React.Component {
             <div className="theme-container">
                 <button onClick={()=>{this.changeTheme(Scheme.scheme1)}} className="theme-button">Scheme 1</button>
                 <button onClick={()=>{this.changeTheme(Scheme.scheme2)}} className="theme-button">Scheme 2</button>
+                <button onClick={()=>{this.changeTheme(Scheme.scheme3)}} className="theme-button">Scheme 3</button>
+                <button onClick={()=>{this.changeTheme(Scheme.scheme4)}} className="theme-button">Scheme 4</button>
             </div>
         );
     }
