@@ -4,6 +4,7 @@ body{
 }
 html{
   scroll-behavior: smooth;
+  
 }
 /* scroll-behavior: smooth; */
 
@@ -13,6 +14,7 @@ html{
   /* border-color: white;
   border-style: solid;
   border-width: 10px; */
+    
 }
 
 .app-myimg{
