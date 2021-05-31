@@ -9,10 +9,12 @@
 
 .theme-navbar:hover + .theme-button-container{
     opacity: 1;
+    visibility: visible;
 }
 
 .theme-button-container:hover{
    opacity: 1;
+   visibility: visible;
 }
 
 
@@ -31,7 +33,7 @@
 }
 
 .theme-button-container{
-    /* display: none; */
+    visibility: hidden;
     position: relative;
     opacity: 0;
     transition: all .5s ease;

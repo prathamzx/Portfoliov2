@@ -20,20 +20,20 @@ class Education extends React.Component {
                         </div>
 
                         <img className="education-text-entry-cover"
-                        src={process.env.PUBLIC_URL+"/nit-cover-3.jpg"}></img>
+                        src={process.env.PUBLIC_URL+"/nit-cover.jpg"}></img>
                         {/* <div className="education-text-entry-title">
                             National Institute of Technology, Kurukshetra
                         </div> */}
                         <div className="education-text-entry-dp-back">
                         <img className="education-text-entry-dp"
-                        src={process.env.PUBLIC_URL+"/nit-logo-2.png"}></img>
+                        src={process.env.PUBLIC_URL+"/nit-logo.png"}></img>
                         </div>
 
                 </div>
                 <div className="education-text-entry">
                         
                         <img className="education-text-entry-cover"
-                        src={process.env.PUBLIC_URL+"/dis-cover-2.jpg"}></img>
+                        src={process.env.PUBLIC_URL+"/dis-cover.jpg"}></img>
                         <div className="education-text-entry-desc">
                                 {/* Description comes here! */}
                         </div>
@@ -42,7 +42,7 @@ class Education extends React.Component {
                         </div> */}
                         <div className="education-text-entry-dp-back">
                         <img className="education-text-entry-dp"
-                        src={process.env.PUBLIC_URL+"/dis-logo-2.jpg"}></img>
+                        src={process.env.PUBLIC_URL+"/dis-logo.jpg"}></img>
                         </div>
                         
 
