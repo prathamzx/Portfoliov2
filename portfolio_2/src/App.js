@@ -73,8 +73,8 @@ class App extends React.Component {
         <Home clicked={this.state.home}/>
         <Skills clicked={this.state.skills}/>
         <About clicked={this.state.about}/>
-        <Experience clicked={this.state.experience}/>
-        <Education clicked={this.state.education}/>
+        <Experience clicked={this.state.experience} theme={this.state.theme}/>
+        <Education clicked={this.state.education} theme={this.state.theme}/>
         <Project clicked={this.state.project}  theme={this.state.theme}/>
         <Navbar clickFunction={this.clickFunction}/>
         <Footer/>

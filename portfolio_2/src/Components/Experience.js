@@ -23,20 +23,20 @@ class Experience extends React.Component {
                 </div>
                 <div className="experience-entry">
                     <div className="experience-entry-logo">
-                        <img src={process.env.PUBLIC_URL + 'natwest.jpg'} 
+                        <img src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/natwest.png"} 
                         className="experience-entry-logo-img" ></img>
                     </div>
                 </div>
                 <div className="experience-entry">
                     <div className="experience-entry-logo">
-                    <img src={process.env.PUBLIC_URL + 'bluestacks.jpg'} 
+                    <img src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/bluestacks.png"} 
                         className="experience-entry-logo-img" ></img>
                     </div>
                 
                 </div>
                 <div className="experience-entry">
                  <div className="experience-entry-logo">
-                 <img src={process.env.PUBLIC_URL + 'gawds.jpg'} 
+                 <img src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/gawds.png"}
                         className="experience-entry-logo-img" ></img>
                  </div>
                 </div>
