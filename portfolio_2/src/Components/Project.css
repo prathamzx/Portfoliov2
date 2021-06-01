@@ -1,27 +1,63 @@
 #project{
     position: absolute;
-    top:1850px;
+    top:2595px;
 }
 
 .project-container{
-    height: 800px;
+    height: 700px;
     width: 100%;
     position: absolute;
     right: 0;
-    top:1950px;
+    top: 2650px;
     /* border-style: dashed; */
     /* border-width: 2px; */
 }
 
+.project-upper-semi{
+    width:80%;
+    height: 25%;
+    position: absolute;
+    background-color: var(--medium);
+    opacity: 0.7;
+    z-index: 1;
+    left:50%;
+    border-radius: 50% / 0 0 100% 100%;
+    /* border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 50%; */
+    transform: translate(-50%,0);
+}
+
+
+.project-lower-semi{
+    width:80%;
+    height: 25%;
+    position: absolute;
+    background-color: var(--medium);
+    z-index: 1;
+    left:50%;
+    bottom: 0;
+    opacity: 0.7;
+    border-radius: 50% / 100% 100% 0 0;
+    /* border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 50%; */
+    transform: translate(-50%,0);
+}
+
 .project-label-text{
-    position: relative;
-    height:100px;
-    width:20%;
+    position: absolute;
+    top:50%;
+    height:15vw;
+    width:15vw;
     background-color: var(--dark);
     left: 50%;
-    transform: translate(-50%,0);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:dashed;
+    border-color: var(--medium);
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
 }
 
 .project-label-text-style{
@@ -40,6 +76,7 @@
     width: 100%;
     position: absolute;
     background-color: var(--dark);
+    /* z-index: 0; */
 }
 
 .project-row{
@@ -50,6 +87,7 @@
     transform: translate(-50%,0); */
     left:1%;
     top:40px;
+    z-index: 2;
 }
 
 .project-column{
@@ -63,9 +101,117 @@
     width:95%;
     background-color: var(--light);
     height: 280px;
-    border-radius: 10px;
+    border-radius: 50px;
     position: relative;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+}
+
+.project-card-row-1{
+    position: relative;
+    width:100%;
+    height: 40%;
+    /* border-width: 1px;
+    border-style: dashed; */
+    display: inline-flex;
+}
+
+.project-card-row-2{
+    position: relative;
+    width:100%;
+    height:60%;
+    /* border-width: 1px;
+    border-style: dashed; */
+    /* display: inline-flex; */
+}
+.project-card-col-1{
+    position: relative;
+    height:100%;
+    width:25%;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+.project-card-col-2{
+    position: relative;
+    height:100%;
+    width: 75%;
+    /* border-width: 1px;
+    border-style: dashed; */
+}
+
+.project-title{
+    position: relative;
+    width: 90%;
+    /* height:60%; */
+    left:5%;
+    top:5%;
+    font-size: 1.2vw;
+    font-family: cursive;
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.project-link{
+    position: relative;
+    width:90%;
+    height: 40%;
+    top:20%;
+    left:3%;
+    display: inline-flex;
+    /*top:50%; */
+    /* transform: translate(0,-50%); */
+}
+
+.project-link-button{
+    position: relative;
+    height:fit-content;
+    width: fit-content;
+    background-color: var(--dark);
+    color: var(--medium);
+    font-family: cursive;
+    padding: 3%;
+    font-size: 1vw;
+    margin-left:5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.project-card-row-2-1{
+    position: relative;
+    width: 100%;
+    /* border-style: dashed;
+    border-width: 1px; */
+    height:55%;
+}
+
+.project-desc{
+    position: relative;
+    width:90%;
+    color: var(--dark);
+    font-family: cursive;
+    left:5%;
+    text-align: justify;
+    top:50%;
+    transform: translate(0,-50%);
+}
+
+.project-card-row-2-2{
+    position: relative;
+    width: 100%;
+    /* border-style: dashed;
+    border-width: 1px; */
+    height:45%;
+}
+
+.project-tech{
+    position: relative;
+    width:90%;
+    color: var(--dark);
+    font-family: cursive;
+    left:5%;
+    font-weight: bold;
+    text-align: justify;
+    top:5%;
 }

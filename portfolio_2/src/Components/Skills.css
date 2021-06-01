@@ -1,13 +1,13 @@
 #skills{
     position: absolute;
-    top:1200px;
+    top:1290px;
 }
 
 .skills-container-left{
     height: 700px;
     width: 39%;
     background-color: var(--dark);
-    top:1300px;
+    top:1350px;
     position: absolute;
     /* border-radius: 30px; */
     border-top-right-radius: 30px;
@@ -44,7 +44,7 @@
     height: 700px;
     width: 39%;
     background-color: var(--dark);
-    top:1300px;
+    top:1350px;
     position: absolute;
     /* border-radius: 30px; */
     right: 0px;
@@ -69,7 +69,7 @@
     width:220px;
     background-color: var(--dark);
     position: absolute;
-    top:1500px;
+    top:1550px;
     left: 50%;
     transform: translate(-50%,0);
     border-radius: 30px;
@@ -97,7 +97,7 @@
     border-width: 120px;
     position: absolute;
     /* opacity: 0.95;   */
-    top:1480px;
+    top:1530px;
     left:46%;
     transform: translate(-50%,0);
     border-top-color: transparent;
@@ -118,7 +118,7 @@
     border-width: 120px;
     position: absolute;
     /* opacity: 0.95; */
-    top:1480px;
+    top:1530px;
     left:54%;
     transform: translate(-50%,0);
     border-top-color: transparent;

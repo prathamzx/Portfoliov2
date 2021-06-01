@@ -22,7 +22,7 @@ class Skills extends React.Component {
                 <div className="bar advanced" data-skill="MySql"></div>
                 <div className="bar intermediate" data-skill="MongoDB | Firebase"></div>
                 <div className="bar-label">DevOps</div>
-                <div className="bar advanced" data-skill="Git | Jira | Jenkins | Postman | WEKA"></div>
+                <div className="bar advanced" data-skill="Git | Jira | Jenkins | Postman | WEKA "></div>
                 <div className="bar intermediate" data-skill="AWS"></div>
                 </div>
             </div>
