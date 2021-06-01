@@ -22,7 +22,10 @@ class Project extends React.Component {
                        <div className="project-column">
                            <div className="project-card">
                                 <div className="project-card-row-1">
-                                    <div className="project-card-col-1"></div>
+                                    <div className="project-card-col-1">
+                                        <img className="project-logo" 
+                                        src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/projectlogo1.png"}></img>
+                                    </div>
                                     <div className="project-card-col-2">
                                         <div className="project-title">
                                             Cleaning Text Documents using Convolutional Autoencoders
@@ -55,7 +58,10 @@ class Project extends React.Component {
                        <div className="project-column">
                             <div className="project-card">
                             <div className="project-card-row-1">
-                                    <div className="project-card-col-1"></div>
+                                    <div className="project-card-col-1">
+                                    <img className="project-logo" 
+                                        src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/projectlogo2.png"}></img>
+                                    </div>
                                     <div className="project-card-col-2">
                                         <div className="project-title">
                                             Techspardha'19 Official Website
@@ -91,7 +97,10 @@ class Project extends React.Component {
                        <div className="project-column">
                            <div className="project-card">
                            <div className="project-card-row-1">
-                                    <div className="project-card-col-1"></div>
+                                    <div className="project-card-col-1">
+                                    <img className="project-logo" 
+                                        src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/projectlogo3.png"}></img>
+                                    </div>
                                     <div className="project-card-col-2">
                                         <div className="project-title">
                                             Patience
@@ -126,7 +135,10 @@ class Project extends React.Component {
                        <div className="project-column">
                             <div className="project-card">
                             <div className="project-card-row-1">
-                                    <div className="project-card-col-1"></div>
+                                    <div className="project-card-col-1">
+                                    <img className="project-logo" 
+                                        src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/projectlogo4.png"}></img>
+                                    </div>
                                     <div className="project-card-col-2">
                                         <div className="project-title">
                                             Student Management System

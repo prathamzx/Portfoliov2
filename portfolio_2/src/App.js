@@ -18,7 +18,7 @@ class App extends React.Component {
     about:0,
     experience:0,
     education:0,
-    theme:1
+    theme:"carnation"
   }
   clickFunction=(component)=>{
     console.log("function called!!");
@@ -54,41 +54,14 @@ class App extends React.Component {
       document.documentElement.style.setProperty('--dark',theme.dark);
       document.documentElement.style.setProperty('--medium',theme.medium);
       document.documentElement.style.setProperty('--light',theme.light);
-      let str="theme-selected-"+this.state.theme;
-      document.getElementById(str).style.opacity='0';
-      if(id==1){
-          // document.getElementById(str).style.opacity='0';
-          // document.getElementsByClassName('theme-button-arrow').opacity='0';
-          document.getElementById('theme-selected-1').style.opacity='1';
-          
-          
-          this.setState({
-              theme:1
-          })
-      } else if (id==2) {
-          // document.getElementById(str).style.opacity='0';
-          document.getElementById('theme-selected-2').style.opacity='2';
-          // document.getElementById(str).style.opacity='0';
-          this.setState({
-              theme:2
-          })
-      } else if (id==3) {
-          document.getElementById('theme-selected-3').style.opacity='1';
-          // document.getElementById(str).style.opacity='0';
-          this.setState({
-              theme:3
-          })
-      } else if (id==4) {
-          document.getElementById('theme-selected-4').style.opacity='1';
-          // document.getElementById(str).style.opacity='0';
-          this.setState({
-              theme:4
-          })
-      }
-      
+      document.getElementById(this.state.theme).style.opacity='0';
+      document.getElementById(id).style.opacity='1';
+      this.setState({
+        theme:id
+      });
   }
   getBackgroundImage = () => {
-    let str=process.env.PUBLIC_URL + '/grayBackground/theme'+this.state.theme+'.jpg';
+    let str=process.env.PUBLIC_URL+"/themes/"+this.state.theme+"/background.jpg";
     console.log(str);
     return str; 
   }
@@ -98,13 +71,11 @@ class App extends React.Component {
       <div className="app-container">
         
         <Home clicked={this.state.home}/>
-        {/* <Social/> */}
         <Skills clicked={this.state.skills}/>
         <About clicked={this.state.about}/>
-        {/* <Skills/> */}
         <Experience clicked={this.state.experience}/>
         <Education clicked={this.state.education}/>
-        <Project clicked={this.state.project}/>
+        <Project clicked={this.state.project}  theme={this.state.theme}/>
         <Navbar clickFunction={this.clickFunction}/>
         <Footer/>
         <Theme changeTheme={this.changeTheme}/>

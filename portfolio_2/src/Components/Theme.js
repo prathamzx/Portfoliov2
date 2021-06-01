@@ -12,20 +12,20 @@ class Theme extends React.Component {
                     <div className="theme-navbar-label">⏷ &nbsp; Select Theme &nbsp;</div> 
                     </button>
                 <div className="theme-button-container">
-                <button onClick={()=>{this.props.changeTheme(Scheme.scheme1,1)}} className="theme-button">
+                <button onClick={()=>{this.props.changeTheme(Scheme.scheme1,"carnation")}} className="theme-button">
                     <div className="theme-button-text">Carnation</div> 
-                <div id="theme-selected-1" className="theme-button-arrow">◉</div></button>
-                <button onClick={()=>{this.props.changeTheme(Scheme.scheme2,2)}} className="theme-button">
+                <div id="carnation" className="theme-button-arrow">◉</div></button>
+                <button onClick={()=>{this.props.changeTheme(Scheme.scheme2,"bazaar")}} className="theme-button">
                 <div className="theme-button-text">Bazaar</div> 
-                <div id="theme-selected-2" className="theme-button-arrow">◉</div>
+                <div id="bazaar" className="theme-button-arrow">◉</div>
                 </button>
-                <button onClick={()=>{this.props.changeTheme(Scheme.scheme3,3)}} className="theme-button">
+                <button onClick={()=>{this.props.changeTheme(Scheme.scheme3,"geraldine")}} className="theme-button">
                 <div className="theme-button-text">Geraldine</div> 
-                <div id="theme-selected-3" className="theme-button-arrow">◉</div>
+                <div id="geraldine" className="theme-button-arrow">◉</div>
                 </button>
-                <button onClick={()=>{this.props.changeTheme(Scheme.scheme4,4)}} className="theme-button">
+                <button onClick={()=>{this.props.changeTheme(Scheme.scheme4,"shadowgreen")}} className="theme-button">
                 <div className="theme-button-text">Shadow Green</div> 
-                <div id="theme-selected-4" className="theme-button-arrow">◉</div>
+                <div id="shadowgreen" className="theme-button-arrow">◉</div>
                 </button>
                 </div>
             </div>
