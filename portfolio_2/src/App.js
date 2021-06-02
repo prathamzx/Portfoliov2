@@ -72,12 +72,12 @@ class App extends React.Component {
         
         <Home clicked={this.state.home}/>
         <Skills clicked={this.state.skills}/>
-        <About clicked={this.state.about}/>
+        <About clicked={this.state.about} theme={this.state.theme}/>
         <Experience clicked={this.state.experience} theme={this.state.theme}/>
         <Education clicked={this.state.education} theme={this.state.theme}/>
         <Project clicked={this.state.project}  theme={this.state.theme}/>
         <Navbar clickFunction={this.clickFunction}/>
-        <Footer/>
+        <Footer theme={this.state.theme}/>
         <Theme changeTheme={this.changeTheme}/>
       <img className="app-myimg" src={this.getBackgroundImage()} />
       </div>

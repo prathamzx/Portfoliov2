@@ -41,7 +41,10 @@ class About extends React.Component {
                             </div>
                             </a>
                             <div className="about-contact">
-                                <div className="about-contact-icon"></div>
+                                <div className="about-contact-icon">
+                                    <img className="about-contact-icon-style" 
+                                    src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/whatsapp-dark.png'}></img>
+                                </div>
                                 <div className="about-contact-entry">
                                 <div className="about-contact-entry-text">
                                     (+91) 82951 97406
@@ -49,11 +52,30 @@ class About extends React.Component {
                                 </div>
                             </div>
                             <div className="about-contact">
-                                <div className="about-contact-icon"></div>
+                                <div className="about-contact-icon">
+                                <div className="about-contact-icon">
+                                    <img className="about-contact-icon-style" 
+                                    src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/web-dark.png'}></img>
+                                </div>
+                                </div>
                                 <div className="about-contact-entry">
                                     <div className="about-contact-entry-text">
                                 Dehradun, Uttarakhand, India, 248001
                                 </div>
+                                </div>
+                            </div>
+                            <div className="about-social">
+                                <div className="about-social-icon">
+                                    <img className="about-social-icon-style" 
+                                        src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/mail-dark.png'}></img>
+                                </div>
+                                <div className="about-social-icon">
+                                <img className="about-social-icon-style" style={{paddingBottom:"5px"}}
+                                        src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/linkedin-dark.png'}></img>
+                                </div>
+                                <div className="about-social-icon">
+                                <img className="about-social-icon-style" 
+                                        src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/github-dark.png'}></img>
                                 </div>
                             </div>
                         </div>
