@@ -9,18 +9,21 @@ class Project extends React.Component {
             <div key={this.props.clicked}>
                 <div id="project"></div>
             <div className="project-container">
-               <div className="project-label-text">
-                   <div className="project-label-text-style">
-                       Projects
-                   </div>
-               </div>
+               
                {/* <div className="project-upper-semi"></div>
                <div className="project-lower-semi"></div> */}
                <div className="project-label-icon"></div>
                <div className="project-background">
                    <div className="project-row">
                        <div className="project-column">
-                           <div className="project-card">
+                       <div className="project-label-text">
+                            <div className="project-label-text-style">
+                                Projects
+                            </div>
+                        </div>
+                       </div>
+                       <div className="project-column">
+                       <div className="project-card">
                                 <div className="project-card-row-1">
                                     <div className="project-card-col-1">
                                         <img className="project-logo" 
@@ -51,9 +54,6 @@ class Project extends React.Component {
                                     </div>
                                 </div>
                            </div>
-                       </div>
-                       <div className="project-column">
-                            
                        </div>
                        <div className="project-column">
                             <div className="project-card">
@@ -95,7 +95,10 @@ class Project extends React.Component {
                        </div>
                    <div className="project-row">
                        <div className="project-column">
-                           <div className="project-card">
+                           
+                           </div>
+                       <div className="project-column">
+                       <div className="project-card">
                            <div className="project-card-row-1">
                                     <div className="project-card-col-1">
                                     <img className="project-logo" 
@@ -128,9 +131,6 @@ class Project extends React.Component {
                                     </div>
                                 </div>
                            </div>
-                           </div>
-                       <div className="project-column">
-                            
                        </div>
                        <div className="project-column">
                             <div className="project-card">

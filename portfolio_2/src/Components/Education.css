@@ -72,6 +72,7 @@
     width: 100%;
     border-radius: 50%;
     position: relative;
+    
     /* opacity: 0.5; */
 }
 
@@ -82,6 +83,9 @@
     position: relative;
     top:-10%;
     background-color: var(--light);
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--medium);
 }
 
 
@@ -103,4 +107,33 @@
     top: 200px;
     border-bottom-left-radius : 30px;
     
+}
+
+.education-head{
+    width:80%;
+    height:fit-content;
+    position: absolute;
+    right:0%;
+    top:45%;
+    transform: translate(0,-50%);
+    font-family: cursive;
+    color:var(--dark);
+}
+
+.education-head-title{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.education-head-course{
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.education-head-duration{
+    font-size: 1.1vw;
+}
+
+.education-head-grades{
+    font-weight: bold;
 }

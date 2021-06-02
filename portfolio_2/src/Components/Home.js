@@ -16,7 +16,7 @@ class Home extends React.Component {
                         Pratham Agarwal
                     </div>
                     <div className="home-text-title">
-                        Full Stack Web Developer
+                            Full Stack Web Developer
                         &nbsp;  
                         <span className="home-text-title-web">
                             {"</>"}
