@@ -13,9 +13,20 @@ class About extends React.Component {
                 <div className="about-container-text">
                     <div className="about-container-text-style">
                         <div className="about-text">
-                        <span className="about-text-quote">
+                            <div className="about-head">
+                        <div className="about-text-quote">
                             "You don't need work-life balance if you're able to make work
-                             your life and life your work"</span>
+                             your life and life your work"</div>
+                             <div className="about-contact-final">
+                                <a href={process.env.PUBLIC_URL + 'Pratham_Agarwal_Resume.pdf'} download>
+                                <div className="resume-final">
+                                    <div className="resume-final-text">
+                                        Resume
+                                    </div>
+                                </div>
+                                </a>
+                             </div>
+                             </div>
                              <br/><br/>
                             Hi there, I am Pratham Agarwal, a 22 year old tech savvy and a software engineer, 
                             who believes in exploration rather than exploitation and prefers tea over coffee.
@@ -81,7 +92,56 @@ class About extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
+                <div className="about-text-right-shift">
+                <a href={process.env.PUBLIC_URL + 'Pratham_Agarwal_Resume.pdf'} download>
+                            <div className="about-resume-sec">
+                                <div className="about-resume-text-sec">
+                                    Resume
+                                </div>
+                            </div>
+                            </a>
+                            <div className="about-contact-sec">
+                                <div className="about-contact-icon-sec">
+                                    <img className="about-contact-icon-style-sec" 
+                                    src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/whatsapp-light.png'}></img>
+                                </div>
+                                <div className="about-contact-entry-sec">
+                                <div className="about-contact-entry-text-sec">
+                                    (+91) 82951 97406
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="about-contact-sec">
+                                <div className="about-contact-icon-sec">
+                                <div className="about-contact-icon-sec">
+                                    <img className="about-contact-icon-style-sec" 
+                                    src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/web-light.png'}></img>
+                                </div>
+                                </div>
+                                <div className="about-contact-entry-sec">
+                                    <div className="about-contact-entry-text-sec">
+                                Dehradun, Uttarakhand, India, 248001
+                                </div>
+                                </div>
+                            </div>
+                            <div className="about-social-sec">
+                                <div className="about-social-icon-sec">
+                                    <img className="about-social-icon-style-sec" 
+                                        src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/mail-light.png'}></img>
+                                </div>
+                                <div className="about-social-icon-sec">
+                                <img className="about-social-icon-style-sec" style={{paddingBottom:"5px"}}
+                                        src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/linkedin-light.png'}></img>
+                                </div>
+                                <div className="about-social-icon-sec">
+                                <img className="about-social-icon-style-sec" 
+                                        src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/github-light.png'}></img>
+                                </div>
+                            </div>
+                </div>
+           
+            
             <div className="about-label">
                 <div className="about-label-text">About Me</div>
             </div>

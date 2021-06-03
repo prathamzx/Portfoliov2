@@ -45,13 +45,15 @@ button{
 .navbar-menu-dropdown{
     position: relative;
     /* right: 0%; */
-    height:400px;
+    height:50px;
     width: 100%;
+    display: none;
 }
 
 .navbar-dropdown-icon{
     height:60px;
     position: relative;
+    display: none;
 }
 .navbar-dropdown-icon-style{
     width: 25px;
@@ -109,5 +111,10 @@ button{
     .navbar-dropdown-icon-style{
         visibility: visible;
     }
-    
+    .navbar-dropdown-icon{
+        display: block;
+    }
+    .navbar-menu-dropdown{
+        display: block;
+    }
 }
