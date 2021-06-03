@@ -5,7 +5,7 @@ import Scheme from './colourScheme.json';
 class Theme extends React.Component {
     
     render(){
-        console.log(Scheme);
+        // console.log(Scheme);
         return(
             <div className="theme-container">
                 <button className="theme-navbar">

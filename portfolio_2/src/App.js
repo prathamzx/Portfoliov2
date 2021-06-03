@@ -21,7 +21,7 @@ class App extends React.Component {
     theme:"carnation"
   }
   clickFunction=(component)=>{
-    console.log("function called!!");
+    // console.log("function called!!");
     if (component==="skills") {
       this.setState({
         skills:this.state.skills+1
@@ -47,7 +47,7 @@ class App extends React.Component {
         education:this.state.education+1
       });
     }
-    console.log(this.state);
+    // console.log(this.state);
   }
 
   changeTheme = (theme,id)=>{
@@ -62,7 +62,7 @@ class App extends React.Component {
   }
   getBackgroundImage = () => {
     let str=process.env.PUBLIC_URL+"/themes/"+this.state.theme+"/background.jpg";
-    console.log(str);
+    // console.log(str);
     return str; 
   }
   render(){
@@ -76,7 +76,7 @@ class App extends React.Component {
         <Experience clicked={this.state.experience} theme={this.state.theme}/>
         <Education clicked={this.state.education} theme={this.state.theme}/>
         <Project clicked={this.state.project}  theme={this.state.theme}/>
-        <Navbar clickFunction={this.clickFunction}/>
+        <Navbar clickFunction={this.clickFunction} theme={this.state.theme}/>
         <Footer theme={this.state.theme}/>
         <Theme changeTheme={this.changeTheme}/>
       <img className="app-myimg" src={this.getBackgroundImage()} />
