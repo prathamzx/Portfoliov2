@@ -109,7 +109,7 @@
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    border-radius: 40px;
+    border-radius: 30%;
     border-style: solid;
     border-width: 4px;
     border-color: var(--medium);
@@ -154,4 +154,43 @@
 
 .experience-head-location{
     font-size: 1vw;
+}
+
+@media screen and (max-width:750px){
+    .experience-container{
+        top:2800px;
+    }
+    .experience-label-text-style{
+        font-size: 6vw;
+    }
+    .experience-text{
+        height: 800px;
+    }
+    .experience-entry{
+        width:80%;
+        left:50%;
+        margin-top: 35px;
+        /* top:40%; */
+        transform: translate(-50%,0%);
+    }
+    .experience-entry-logo{
+        height: 23vw;
+        width: 23vw;
+    }
+    .experience-entry-logo-img{
+        height: 20vw;
+        width: 20vw;
+    }
+    .experience-head-title{
+        font-size: 5.5vw;
+    }
+    .experience-head-designation{
+        font-size: 3.5vw;
+    }
+    .experience-head-duration{
+        font-size: 3.5vw;
+    }
+    .experience-head-location{
+        font-size: 3vw;
+    }
 }

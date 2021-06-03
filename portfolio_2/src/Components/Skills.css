@@ -198,7 +198,7 @@
     padding: 2px;
     border-radius: 15px;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 1.2vw;
     color: var(--light);
     font-weight: bold;
     width:70%;
@@ -368,5 +368,54 @@ svg circle{
 @keyframes stroke-100 {
     100%{
         stroke-dashoffset: 0;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:750px) {
+    .skills-label{
+        display: none;
+    }
+    .skills-label-left{
+        display: none;
+    }
+    .skills-label-right{
+        display: none;
+    }
+    .skills-container-left{
+        width: 48%;
+    }
+    .skills-container-right{
+        width: 48%;
+    }
+    .bar{
+        font-size: 1.4vw;
+    }
+    .progress-box-entry-label{
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .skills-label{
+        display: none;
+    }
+    .skills-label-left{
+        display: none;
+    }
+    .skills-label-right{
+        display: none;
+    }
+    .skills-container-left  {
+        width: 90%;
+    }
+    .skills-container-right{
+        width: 90%;
+        top:2100px;
+    }
+    .bar{
+        font-size: 2.2vw;
+    }
+    .progress-box-entry-label{
+        font-size: 2.8vw;
     }
 }

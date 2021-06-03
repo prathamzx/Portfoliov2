@@ -77,9 +77,9 @@
 }
 
 .education-text-entry-dp-back{
-    width: 150px;
+    width: 8vw;
     border-radius: 50%;
-    height: 150px;
+    height: 8vw;
     position: relative;
     top:-10%;
     background-color: var(--light);
@@ -135,5 +135,166 @@
 }
 
 .education-head-grades{
+    font-size: 1.1vw;
     font-weight: bold;
+}
+
+.education-head-location{
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width:1300px) {
+    .education-head-title{
+        font-size: 1.5vw;
+    }
+    .education-head-course{
+        font-size: 1.2vw;
+    }
+    .education-head-duration{
+        font-size: 1.2vw;
+    }
+    .education-head-grades{
+        font-size: 1.2vw;
+    }
+    .education-head-location{
+        font-size: 1.3vw;
+    }
+    .education-text-entry-dp-back{
+        height: 9vw;
+        width: 9vw;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .education-head-title{
+        font-size: 1.9vw;
+    }
+    .education-head-course{
+        font-size: 1.4vw;
+    }
+    .education-head-duration{
+        font-size: 1.5vw;
+    }
+    .education-head-grades{
+        font-size: 1.5vw;
+    }
+    .education-head-location{
+        font-size: 1.6vw;
+    }
+    .education-text-entry-dp-back{
+        height: 10vw;
+        width: 10vw;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .education-head-title{
+        font-size: 2vw;
+    }
+    .education-head-course{
+        font-size: 1.5vw;
+    }
+    .education-head-duration{
+        font-size: 1.7vw;
+    }
+    .education-head-grades{
+        font-size: 1.7vw;
+    }
+    .education-head-location{
+        font-size: 1.8vw;
+    }
+    .education-text-entry-dp-back{
+        height: 10vw;
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .education-text-entry{
+        width: 80%;
+        top:50px;
+        left:50%;
+        transform: translate(-50%,0);
+        margin-left: 0%;
+        margin-bottom: 50px;
+    }
+    .education-head{
+        width: 85%;
+    }
+    .education-head-title{
+        font-size: 3.5vw;
+    }
+    .education-head-course{
+        font-size: 2.5vw;
+    }
+    .education-head-duration{
+        font-size: 2vw;
+    }
+    .education-head-grades{
+        font-size: 2vw;
+    }
+    .education-head-location{
+        font-size: 2.2vw;
+    }
+    .education-text{
+        display: block;
+    }
+    .education-text-entry-dp-back{
+        height: 15vw;
+        width: 15vw;
+    }
+    .education-text{
+        height:1000px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .education-head-title{
+        font-size: 4vw;
+    }
+    .education-head-course{
+        font-size: 2.8vw;
+    }
+    .education-head-duration{
+        font-size: 2.4vw;
+    }
+    .education-head-grades{
+        font-size: 2.7vw;
+    }
+    .education-head-location{
+        font-size: 2.8vw;
+    }
+    .education-text-entry-dp-back{
+        height: 16vw;
+        width: 16vw;
+    }
+}
+
+@media screen and (max-width:400px){
+    .education-head-title{
+        font-size: 4.5vw;
+    }
+    .education-head-course{
+        font-size: 3.2vw;
+    }
+    .education-head-duration{
+        font-size: 3.2vw;
+    }
+    .education-head-grades{
+        font-size: 3.3vw;
+    }
+    .education-head-location{
+        font-size: 3.2vw;
+    }
+    .education-text-entry-dp-back{
+        height: 18vw;
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .education-container{
+        top:4550px;
+    }
 }

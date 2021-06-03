@@ -82,43 +82,6 @@ class Skills extends React.Component {
                         <div className="progress-box-entry-label">Cloud Computing</div>
                         </div>
                     </div>
-                        
-                    {/* <svg className="progress-box-svg-1">
-                        <circle className="circle-25" cx="80" cy="80" r="60"></circle>
-                    </svg>
-                   
-                    </div>
-                    <svg className="progress-box-svg-2">
-                        <circle className="circle-50" cx="80" cy="80" r="60"></circle>
-
-                    </svg>
-                    </div>
-
-                    <div className="progress-box-row-2">
-                    <svg className="progress-box-svg-3">
-                        <circle className="circle-25" cx="80" cy="80" r="60"></circle>
-
-                    </svg>
-                    <svg className="progress-box-svg-4">
-                        <circle className="circle-75" cx="80" cy="80" r="60"></circle>
-
-                    </svg>
-                    
-                    </div>
-
-
-                    <div className="progress-box-row-3">
-                    <svg className="progress-box-svg-5">
-                        <circle className="circle-100" cx="80" cy="80" r="60"></circle>
-
-                    </svg>
-                    <svg className="progress-box-svg-6">
-                        <circle className="circle-50" cx="80" cy="80" r="60"></circle>
-
-                    </svg> */}
-                    
-                    
-                    
                 </div>
             </div>
             <div className="skills-label">

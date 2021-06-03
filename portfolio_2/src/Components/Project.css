@@ -155,7 +155,7 @@
     width: 90%;
     /* height:60%; */
     left:5%;
-    top:5%;
+    top:20px;
     font-size: 1.2vw;
     font-family: cursive;
     color: var(--dark);
@@ -166,7 +166,7 @@
     position: relative;
     width:90%;
     height: 40%;
-    top:20%;
+    top:35px;
     left:3%;
     display: inline-flex;
     /*top:50%; */
@@ -223,4 +223,103 @@
     font-weight: bold;
     text-align: justify;
     top:5%;
+}
+
+@media screen and (max-width:1100px) and (min-width:750px){
+    .project-label-text{
+        display: none;
+    }
+    #project-label-1{
+        display: none;
+    }
+    .project-column{
+        width:47%;
+        margin-left: 1.5%;
+    }
+    .project-title{
+        font-size: 1.8vw;
+    }
+    .project-link-button{
+        font-size: 1.5vw;
+    }
+    .project-desc{
+        font-size: 1.4vw;
+    }
+    .project-tech{
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .project-label-text{
+        display: none;
+    }
+    #project-label-1{
+        display: none;
+    }
+    .project-column{
+        width:47%;
+        margin-left: 1.5%;
+    }
+    .project-title{
+        font-size: 2vw;
+    }
+    .project-link-button{
+        font-size: 1.8vw;
+    }
+    .project-desc{
+        font-size: 1.8vw;
+    }
+    .project-tech{
+        font-size: 1.8vw;
+    }
+    .project-logo{
+        height: 10vw;
+        width: 10vw;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .project-title{
+        font-size: 2.2vw;
+    }
+    .project-link-button{
+        font-size: 2.4vw;
+    }
+    .project-desc{
+        font-size: 2.2vw;
+    }
+    .project-tech{
+        font-size: 2vw;
+    }
+    .project-logo{
+        height: 12vw;
+        width: 12vw;
+    }
+}
+
+@media  screen and (max-width:450px) {
+    .project-title{
+        font-size: 2.8vw;
+        top:20%;
+    }
+    .project-link-button{
+        font-size: 2.8vw;
+    }
+    .project-desc{
+        font-size: 2.6vw;
+    }
+    .project-tech{
+        font-size: 2.4vw;
+    }
+    .project-logo{
+        height: 14vw;
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .project-container{
+        top:3750px;
+    }
 }

@@ -15,7 +15,7 @@ class Project extends React.Component {
                <div className="project-label-icon"></div>
                <div className="project-background">
                    <div className="project-row">
-                       <div className="project-column">
+                       <div id="project-label-1" className="project-column">
                        <div className="project-label-text">
                             <div className="project-label-text-style">
                                 Projects
@@ -94,7 +94,7 @@ class Project extends React.Component {
                             </div>
                        </div>
                    <div className="project-row">
-                       <div className="project-column">
+                       <div id="project-label-1" className="project-column">
                            
                            </div>
                        <div className="project-column">
