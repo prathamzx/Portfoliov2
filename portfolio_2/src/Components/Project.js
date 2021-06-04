@@ -34,9 +34,11 @@ class Project extends React.Component {
                                             Cleaning Text Documents using Convolutional Autoencoders
                                         </div>
                                         <div className="project-link">
-                                            <button className="project-link-button">
+                                            <a className="project-link-button"
+                                            href={process.env.PUBLIC_URL + 'Conv Autoencoder Project.pdf'} download>
                                                 Report
-                                            </button>
+                                            
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -67,12 +69,14 @@ class Project extends React.Component {
                                             Techspardha'19 Official Website
                                         </div>
                                         <div className="project-link">
-                                            <button className="project-link-button">
+                                            <a className="project-link-button"
+                                            href="https://prathamzx.github.io/Techspardha19/#/" target="_blank">
                                                 Visit
-                                            </button>
-                                            <button className="project-link-button">
+                                            </a>
+                                            <a className="project-link-button"
+                                            href="https://github.com/prathamzx/Techspardha19" target="_blank">
                                                 GitHub
-                                            </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -109,12 +113,15 @@ class Project extends React.Component {
                                             Patience
                                         </div>
                                         <div className="project-link">
-                                            <button className="project-link-button">
+                                        <a className="project-link-button"
+                                            href="https://prathamzx.github.io/" target="_blank">
                                                 Visit
-                                            </button>
-                                            <button className="project-link-button">
+                                            </a>
+                                            <a className="project-link-button"
+                                            href="https://github.com/prathamzx/patience" target="_blank">
+                                                
                                                 Github
-                                            </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -144,9 +151,10 @@ class Project extends React.Component {
                                             Student Management System
                                         </div>
                                         <div className="project-link">
-                                            <button className="project-link-button">
+                                        <a className="project-link-button"
+                                            href="https://github.com/prathamzx/Student-Management-System" target="_blank">
                                                 GitHub
-                                            </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
