@@ -419,3 +419,10 @@ svg circle{
         font-size: 2.8vw;
     }
 }
+
+@media screen and (max-width:400px){
+    .progress-box-entry{
+        height: 28vw;
+        width: 28vw;
+    }
+}
