@@ -78,7 +78,7 @@ class App extends React.Component {
         <Project clicked={this.state.project}  theme={this.state.theme}/>
         <Navbar clickFunction={this.clickFunction} theme={this.state.theme}/>
         <Footer theme={this.state.theme}/>
-        <Theme changeTheme={this.changeTheme}/>
+        <Theme changeTheme={this.changeTheme} theme={this.state.theme}/>
       <img className="app-myimg" src={this.getBackgroundImage()} />
       </div>
     </div>

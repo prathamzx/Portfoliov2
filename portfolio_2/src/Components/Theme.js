@@ -9,7 +9,13 @@ class Theme extends React.Component {
         return(
             <div className="theme-container">
                 <button className="theme-navbar">
-                    <div className="theme-navbar-label">⏷ &nbsp; Select Theme &nbsp;</div> 
+                    <div className="theme-navbar-label">
+                        <div >
+                        <img 
+                        className="theme-navbar-label-icon"
+                            src={process.env.PUBLIC_URL+"/themes/"+this.props.theme+"/caretdown.png"}></img>
+                        </div>
+                        Select Theme</div> 
                     </button>
                 <div className="theme-button-container">
                 <button onClick={()=>{this.props.changeTheme(Scheme.scheme1,"carnation")}} className="theme-button">

@@ -4,17 +4,20 @@
     height: 200px;
     z-index: 10;
     left:20px;
+    background-color: transparent;
     /* display: inline-block; */
 }
 
 .theme-navbar:hover + .theme-button-container{
     opacity: 1;
     visibility: visible;
+    /* background-color: var(--dark); */
 }
 
 .theme-button-container:hover{
    opacity: 1;
    visibility: visible;
+   /* background-color: var(--dark); */
 }
 
 
@@ -29,7 +32,8 @@
 }
 
 .theme-navbar-label{
-    height: 30px;;
+    height: 30px;
+    display: inline-flex;
 }
 
 .theme-button-container{
@@ -42,7 +46,7 @@
 
 .theme-button{
     position: relative;
-    border-width: 1px;
+    border-width: 5px;
     border-style: solid;
     width: 100%;
     height: 40px;
@@ -53,7 +57,7 @@
     text-align: left;
     font-weight: bold;
     display: inline-flex;
-    border-color: transparent;
+    border-color: var(--dark);
 }
 
 .theme-button:hover{
@@ -77,4 +81,13 @@
 
 #carnation{
     opacity: 1;
+}
+
+.theme-navbar-label-icon{
+    height:15px;
+    width:15px;
+    position: relative;
+    top:30%;
+    transform: translate(0,-50%);
+    margin-right: 10px;
 }
