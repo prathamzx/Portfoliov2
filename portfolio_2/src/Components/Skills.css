@@ -163,7 +163,7 @@
   
 .skills-bar{
     position: relative;
-    height: fit-content;
+    /* height: fit-content; */
     width: 100%;
     top:50%;
     transform: translate(0,-50%);
@@ -189,7 +189,7 @@
     font-size: 130%;
     font-family: "Balsamiq Sans";
     /* font-weight: bold; */
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     margin-left: -20px;
 }
 
@@ -214,17 +214,17 @@
     display: inline-block;
     padding: 5px 0 5px 10px;
     border-radius: inherit;
-    /* opacity: 0; */
     animation: load 2s  forwards;
     overflow: hidden;
     white-space: nowrap;
-    /* -webkit-animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
     -moz-animation: load 2s 0s;
-    -o-animation: load 2s 0s; */
+    -o-animation: load 2s 0s;
 }
 
 .bar.front::before{
     background-color: var(--medium);
+    
 }
 .bar.back::before{
     background-color: var(--medium);

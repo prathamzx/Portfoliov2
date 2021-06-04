@@ -77,13 +77,13 @@
 @media screen and (max-width:900px) and  (min-width:600px) {
     .home-pic-back-1{
         top:30%;
-        height: 40vh;
-        width: 40vh;
+        height: 400px;
+        width: 400px;
     }
     .home-pic-back-2{
         top:30%;
-        height: 40vh;
-        width: 40vh;
+        height: 400px;
+        width: 400px;
     }
     .home-text{
         top:70%;
@@ -91,25 +91,25 @@
         left: auto;
     }
     .home-text-name{
-        font-size: 7vh;
+        font-size: 70px;
     }
     .home-text-title{
-        font-size: 3vh;
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width:600px) {
     .home-pic-back-1{
         top:10%;
-        height: 40vh;
-        width: 40vh;
+        height: 60vw;
+        width: 60vw;
         left:46%;
         transform: translate(-50%,0);
     }
     .home-pic-back-2{
         top:10%;
-        height: 40vh;
-        width: 40vh;
+        height: 60vw;
+        width: 60vw;
         left:51%;
         transform: translate(-50%,0);
     }
@@ -124,5 +124,16 @@
     }
     .home-text-title{
         font-size: 5vw;
+    }
+}
+
+@media screen and (max-width:450px){
+    .home-pic-back-1{
+        height: 75vw;
+        width: 75vw;
+    }
+    .home-pic-back-2{
+        height: 75vw;
+        width: 75vw;
     }
 }
