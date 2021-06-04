@@ -53,8 +53,11 @@ class About extends React.Component {
                             </a>
                             <div className="about-contact">
                                 <div className="about-contact-icon">
+                                <a href="https://api.whatsapp.com/send?phone=918295197406">
                                     <img className="about-contact-icon-style" 
                                     src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/whatsapp-dark.png'}></img>
+                                
+                                </a>
                                 </div>
                                 <div className="about-contact-entry">
                                 <div className="about-contact-entry-text">
@@ -65,8 +68,10 @@ class About extends React.Component {
                             <div className="about-contact">
                                 <div className="about-contact-icon">
                                 <div className="about-contact-icon">
+                                <a href="http://maps.google.com/?q=Dehradun, Uttarakhand, India" target="_blank">
                                     <img className="about-contact-icon-style" 
                                     src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/web-dark.png'}></img>
+                                </a>
                                 </div>
                                 </div>
                                 <div className="about-contact-entry">
@@ -76,18 +81,29 @@ class About extends React.Component {
                                 </div>
                             </div>
                             <div className="about-social">
+                            
                                 <div className="about-social-icon">
+                                <a href="mailto:agarwalpratham1999@gmail.com">
                                     <img className="about-social-icon-style" 
                                         src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/mail-dark.png'}></img>
+                                </a>
                                 </div>
                                 <div className="about-social-icon">
+                                <a href="https://www.linkedin.com/in/pratham-agarwal/" target="_blank">
+                                
                                 <img className="about-social-icon-style" style={{paddingBottom:"5px"}}
                                         src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/linkedin-dark.png'}></img>
+                                </a>
                                 </div>
+                                
+                                
                                 <div className="about-social-icon">
+                                <a href="https://github.com/prathamzx" target="_blank">
                                 <img className="about-social-icon-style" 
                                         src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/github-dark.png'}></img>
+                                </a>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -103,8 +119,10 @@ class About extends React.Component {
                             </a>
                             <div className="about-contact-sec">
                                 <div className="about-contact-icon-sec">
+                                <a href="https://api.whatsapp.com/send?phone=918295197406">
                                     <img className="about-contact-icon-style-sec" 
                                     src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/whatsapp-light.png'}></img>
+                                </a>
                                 </div>
                                 <div className="about-contact-entry-sec">
                                 <div className="about-contact-entry-text-sec">
@@ -115,8 +133,10 @@ class About extends React.Component {
                             <div className="about-contact-sec">
                                 <div className="about-contact-icon-sec">
                                 <div className="about-contact-icon-sec">
+                                    <a href="http://maps.google.com/?q=Dehradun, Uttarakhand, India" target="_blank">
                                     <img className="about-contact-icon-style-sec" 
                                     src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/web-light.png'}></img>
+                                </a>
                                 </div>
                                 </div>
                                 <div className="about-contact-entry-sec">
@@ -127,16 +147,22 @@ class About extends React.Component {
                             </div>
                             <div className="about-social-sec">
                                 <div className="about-social-icon-sec">
+                                <a href="mailto:agarwalpratham1999@gmail.com">
                                     <img className="about-social-icon-style-sec" 
                                         src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/mail-light.png'}></img>
+                                </a>
                                 </div>
                                 <div className="about-social-icon-sec">
+                                <a href="https://www.linkedin.com/in/pratham-agarwal/" target="_blank">
                                 <img className="about-social-icon-style-sec" style={{paddingBottom:"5px"}}
                                         src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/linkedin-light.png'}></img>
+                                </a>
                                 </div>
                                 <div className="about-social-icon-sec">
+                                <a href="https://github.com/prathamzx" target="_blank">
                                 <img className="about-social-icon-style-sec" 
                                         src={process.env.PUBLIC_URL + '/themes/' + this.props.theme + '/github-light.png'}></img>
+                                </a>
                                 </div>
                             </div>
                 </div>

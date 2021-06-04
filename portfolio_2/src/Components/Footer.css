@@ -51,5 +51,27 @@
 @media screen and (max-width:750px) {
     .footer-container{
         top:5600px;
+        height: 150px;
+    }
+    .footer-social{
+        left: 50%;
+        transform: translate(-50%,0);
+        top:20%;
+    }
+    .footer-copyright{
+        left: 50%;
+        transform: translate(-50%,0);
+        width: fit-content;
+        top:60%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .footer-copyright{
+        font-size: 3.5vw;
+    }
+    .footer-social-bubble{
+        height: 10vw ;
+        width: 10vw;
     }
 }
