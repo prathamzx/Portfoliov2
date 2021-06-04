@@ -247,6 +247,17 @@
     .education-text{
         height:1000px;
     }
+    .education-label{
+        /* height:12vw;/ */
+        width: 50vw;
+    }
+    .education-label-back{
+        /* height: 12vw; */
+        width: 50vw;
+    }
+    .education-label-text{
+        font-size: 8vw;
+    }
 }
 
 @media screen and (max-width:550px){
@@ -296,5 +307,8 @@
 @media screen and (max-width:750px) {
     .education-container{
         top:4550px;
+    }
+    #education{
+        top: 4400px;
     }
 }

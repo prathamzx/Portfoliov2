@@ -157,6 +157,9 @@
 }
 
 @media screen and (max-width:750px){
+    #experience{
+        top:2750px;
+    }
     .experience-container{
         top:2800px;
     }
