@@ -54,7 +54,7 @@
 
 .home-text-name{
     color: var(--medium);
-    font-family: fantasy;
+    font-family: "Jockey One";
     /* text-align: center; */
     font-size: 5vw;
     font-weight:bolder;
@@ -62,7 +62,7 @@
 
 .home-text-title{
     color:var(--light);
-    font-family: fantasy;
+    font-family: "Jockey One";
     /* text-align: center; */
     font-size: 2vw;
     /* opacity: 0.8; */

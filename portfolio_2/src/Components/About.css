@@ -53,7 +53,7 @@
     right:20%;
     transform: translate(0,-50%);
     color: var(--medium);
-    font-family:fantasy;
+    font-family: "Jockey One";
     font-size:3vw;
 }
 
@@ -83,7 +83,7 @@
     width:70%;
     position: absolute;
     left:0;
-    font-family:cursive;
+    font-family:"Balsamiq Sans";
     color: var(--dark);                                                                                        ;
     font-size:16px;
     text-align: justify;
@@ -125,7 +125,7 @@
     position: relative;
     top:50%;
     transform: translate(0,-50%);
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     font-weight: bold;
     font-size: 2vw;
 }
@@ -161,7 +161,7 @@
     color: var(--dark);
     font-size: 1vw;
     left:10%;
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     font-weight: bold;
 }
 
@@ -235,7 +235,7 @@
     width: fit-content;
     transform: translate(-50%,-50%);
     font-size: 2vw;
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     color: var(--light);
 }
 

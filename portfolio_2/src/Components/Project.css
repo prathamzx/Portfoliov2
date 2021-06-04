@@ -70,7 +70,7 @@
 }
 
 .project-label-text-style{
-    font-family: fantasy;
+    font-family: "Jockey One";
     color: var(--medium);
     text-align: center;
     position: relative;
@@ -157,7 +157,7 @@
     left:5%;
     top:20px;
     font-size: 1.2vw;
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     color: var(--dark);
     font-weight: bold;
 }
@@ -179,7 +179,7 @@
     width: fit-content;
     background-color: var(--dark);
     color: var(--medium);
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     padding: 3%;
     font-size: 1vw;
     margin-left:5px;
@@ -199,7 +199,7 @@
     position: relative;
     width:90%;
     color: var(--dark);
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     left:5%;
     text-align: justify;
     top:50%;
@@ -218,7 +218,7 @@
     position: relative;
     width:90%;
     color: var(--dark);
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     left:5%;
     font-weight: bold;
     text-align: justify;

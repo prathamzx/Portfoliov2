@@ -23,7 +23,7 @@
     position: relative;
     height: 60px;
     color: var(--medium);
-    font-family:fantasy;
+    font-family:"Jockey One";
     font-size: 20px;
     transition: all .5s ease;
 }
@@ -48,7 +48,7 @@
     height: 40px;
     color: var(--medium);
     font-size: 15px;
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     background-color: var(--dark);
     text-align: left;
     font-weight: bold;

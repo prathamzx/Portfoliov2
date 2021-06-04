@@ -59,7 +59,7 @@
     top:50%;
     transform: translate(-50%,-50%);
     color: var(--medium);
-    font-family: fantasy;
+    font-family: "Jockey One";
     font-size: 0;
     animation: 1s pop-out forwards;
 }
@@ -187,7 +187,7 @@
     left:50%;
     transform: translate(-50%,0);
     font-size: 130%;
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     /* font-weight: bold; */
     margin-bottom: 20px;
     margin-left: -20px;
@@ -315,7 +315,7 @@
     color: var(--light);
     font-size: 1.1vw;
     margin-top: 10px;
-    font-family: cursive;
+    font-family: "Balsamiq Sans";
     /* overflow: hidden; */
     white-space: nowrap;
 }
