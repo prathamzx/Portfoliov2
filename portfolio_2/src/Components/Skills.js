@@ -31,14 +31,20 @@ class Skills extends React.Component {
                     <div className="progress-box-row">
                         <div className="progress-box-col">
                             <div className="progress-box-entry">
+                            <img className="progress-box-icon" 
+                                        src={process.env.PUBLIC_URL+"/themes/"+ this.props.theme +"/website.png"}></img>
                                 <svg className="progress-box-svg">
-                                    <circle className="circle-75" cx="50%" cy="50%" r="35%"></circle>
+                                    <circle className="circle-75" cx="50%" cy="50%" r="35%">
+                                        
+                                    </circle>
                                 </svg>
                             </div>
                         <div className="progress-box-entry-label">Website Development</div>
                         </div>
                         <div className="progress-box-col">
                         <div className="progress-box-entry">
+                        <img className="progress-box-icon" 
+                                        src={process.env.PUBLIC_URL+"/themes/"+ this.props.theme +"/competitive.png"}></img>
                                 <svg className="progress-box-svg">
                                     <circle className="circle-75" cx="50%" cy="50%" r="35%"></circle>
                                 </svg>
@@ -49,6 +55,8 @@ class Skills extends React.Component {
                     <div className="progress-box-row">
                         <div className="progress-box-col">
                         <div className="progress-box-entry">
+                        <img className="progress-box-icon" 
+                                        src={process.env.PUBLIC_URL+"/themes/"+ this.props.theme +"/ai.png"}></img>
                                 <svg className="progress-box-svg">
                                     <circle className="circle-50" cx="50%" cy="50%" r="35%"></circle>
                                 </svg>
@@ -57,6 +65,8 @@ class Skills extends React.Component {
                         </div>
                         <div className="progress-box-col">
                         <div className="progress-box-entry">
+                        <img className="progress-box-icon" 
+                                        src={process.env.PUBLIC_URL+"/themes/"+ this.props.theme +"/desktop.png"}></img>
                                 <svg className="progress-box-svg">
                                     <circle className="circle-25" cx="50%" cy="50%" r="35%"></circle>
                                 </svg>
@@ -67,6 +77,8 @@ class Skills extends React.Component {
                     <div className="progress-box-row">
                         <div className="progress-box-col">
                         <div className="progress-box-entry">
+                        <img className="progress-box-icon" 
+                                        src={process.env.PUBLIC_URL+"/themes/"+ this.props.theme +"/automate.png"}></img>
                                 <svg className="progress-box-svg">
                                     <circle className="circle-75" cx="50%" cy="50%" r="35%"></circle>
                                 </svg>
@@ -75,6 +87,8 @@ class Skills extends React.Component {
                         </div>
                         <div className="progress-box-col">
                         <div className="progress-box-entry">
+                        <img className="progress-box-icon" 
+                                        src={process.env.PUBLIC_URL+"/themes/"+ this.props.theme +"/cloud.png"}></img>
                                 <svg className="progress-box-svg">
                                     <circle className="circle-25" cx="50%" cy="50%" r="35%"></circle>
                                 </svg>

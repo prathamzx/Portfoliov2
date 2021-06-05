@@ -71,7 +71,7 @@ class App extends React.Component {
       <div className="app-container">
         
         <Home clicked={this.state.home}/>
-        <Skills clicked={this.state.skills}/>
+        <Skills clicked={this.state.skills} theme={this.state.theme}/>
         <About clicked={this.state.about} theme={this.state.theme}/>
         <Experience clicked={this.state.experience} theme={this.state.theme}/>
         <Education clicked={this.state.education} theme={this.state.theme}/>

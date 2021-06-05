@@ -79,7 +79,7 @@
 
 .experience-entry{
     height:220px;
-    width: 32%;
+    width:31%;
     margin-left:1%;
     /* top:100px; */
     margin-top: 55px;  
@@ -87,8 +87,23 @@
     border-radius: 70px;
     display: inline-flex;
     background-color:var(--light);
-    /* animation: 4s pop-out forwards; */
+    /* opacity: 0; */
+    /* animation: 1s fade-in-card forwards;  */
+    /* top:50%;
+    transform: translate(0,-50%); */
 }
+
+
+
+@keyframes pop-out-exp {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height:220px;
+    }
+}
+
 
 .experience-entry-logo{
     height: 10vw;
@@ -100,6 +115,7 @@
     left:50%;
     border-radius: 30px;
     display: inline-flex;
+    /* animation: 1.5s fade-in-card forwards; */
 }
 
 .experience-entry-logo-img{
@@ -126,6 +142,16 @@
     height: 100%;
     position: relative;
     /* right:0; */
+}
+
+.exp-entry-1{
+    animation: 1s fade-in-card 0s forwards;
+}
+.exp-entry-2{
+    animation: 1s fade-in-card 0.1s forwards;
+}
+.exp-entry-3{
+    animation: 1s fade-in-card 0.2s forwards;
 }
 
 .experience-head{

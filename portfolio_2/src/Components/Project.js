@@ -23,7 +23,7 @@ class Project extends React.Component {
                         </div>
                        </div>
                        <div className="project-column">
-                       <div className="project-card">
+                       <div className="project-card" id="project-1">
                                 <div className="project-card-row-1">
                                     <div className="project-card-col-1">
                                         <img className="project-logo" 
@@ -58,7 +58,7 @@ class Project extends React.Component {
                            </div>
                        </div>
                        <div className="project-column">
-                            <div className="project-card">
+                            <div className="project-card" id="project-2">
                             <div className="project-card-row-1">
                                     <div className="project-card-col-1">
                                     <img className="project-logo" 
@@ -102,7 +102,7 @@ class Project extends React.Component {
                            
                            </div>
                        <div className="project-column">
-                       <div className="project-card">
+                       <div className="project-card" id="project-3">
                            <div className="project-card-row-1">
                                     <div className="project-card-col-1">
                                     <img className="project-logo" 
@@ -140,7 +140,7 @@ class Project extends React.Component {
                            </div>
                        </div>
                        <div className="project-column">
-                            <div className="project-card">
+                            <div className="project-card" id="project-4">
                             <div className="project-card-row-1">
                                     <div className="project-card-col-1">
                                     <img className="project-logo" 

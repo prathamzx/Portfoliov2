@@ -22,13 +22,13 @@ class Experience extends React.Component {
                 </div>
                 </div>
                 <div className="experience-entry">
-                    <div className="experience-logo-container">
+                    <div className="experience-logo-container exp-entry-1">
                     <div className="experience-entry-logo">
                         <img src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/natwest.png"} 
                         className="experience-entry-logo-img" ></img>
                     </div>
                     </div>
-                    <div className="experience-desc-container">
+                    <div className="experience-desc-container exp-entry-1">
                         <div className="experience-head">
                             <span className="experience-head-title">Natwest Group</span> 
                              
@@ -42,13 +42,13 @@ class Experience extends React.Component {
                     </div>
                 </div>
                 <div className="experience-entry">
-                <div className="experience-logo-container">
+                <div className="experience-logo-container exp-entry-2">
                     <div className="experience-entry-logo">
                         <img src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/bluestacks.png"} 
                         className="experience-entry-logo-img" ></img>
                     </div>
                     </div>
-                    <div className="experience-desc-container">
+                    <div className="experience-desc-container exp-entry-2">
                         <div className="experience-head">
                             <span className="experience-head-title">BlueStacks</span> 
                              
@@ -63,13 +63,13 @@ class Experience extends React.Component {
                 
                 </div>
                 <div className="experience-entry">
-                <div className="experience-logo-container">
+                <div className="experience-logo-container exp-entry-3">
                     <div className="experience-entry-logo">
                         <img src={process.env.PUBLIC_URL+ "/themes/" + this.props.theme + "/techno.png"} 
                         className="experience-entry-logo-img" ></img>
                     </div>
                     </div>
-                    <div className="experience-desc-container">
+                    <div className="experience-desc-container exp-entry-3">
                         <div className="experience-head">
                             <span className="experience-head-title">Technobyte</span> 
                              
