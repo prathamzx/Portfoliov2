@@ -80,7 +80,8 @@ button{
     /* width:0; */
 }
 .navbar-dropdown-anchor{
-    visibility: hidden;
+    /* visibility: hidden; */
+    pointer-events: none;
 }
 .navbar-dropdown-item:hover{
     background-color: var(--medium);

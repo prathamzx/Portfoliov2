@@ -17,7 +17,7 @@ class Navbar extends React.Component {
                 x[i].style.visibility="visible";
                 x[i].style.height="50px";
                 y[i].style.opacity="1";
-                q[i].style.visibility="visible";
+                q[i].style.pointerEvents="all";
             }
         }
         else {
@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                 x[i].style.visibility="hidden";
                 x[i].style.height="0px";
                 y[i].style.opacity="0";
-                q[i].style.visibility="hidden";
+                q[i].style.pointerEvents="none";
               }
         }
         
@@ -48,7 +48,7 @@ class Navbar extends React.Component {
                 x[i].style.visibility="hidden";
                 x[i].style.height="0px";
                 y[i].style.opacity="0";
-                q[i].style.visibility="hidden";
+                q[i].style.pointerEvents="none";
               }
             }
         }
