@@ -8,6 +8,7 @@ class Navbar extends React.Component {
         let y=document.getElementsByClassName('navbar-dropdown-item-text');
         let z=document.getElementsByClassName('navbar-dropdown-icon-style');
         let p=document.getElementsByClassName('navbar-dropdown-icon-img');
+        let q=document.getElementsByClassName('navbar-dropdown-anchor');
         
         if(x[0].style.visibility==="hidden" || x[0].style.visibility===""){
             z[0].style.backgroundColor="var(--medium)";
@@ -16,6 +17,7 @@ class Navbar extends React.Component {
                 x[i].style.visibility="visible";
                 x[i].style.height="50px";
                 y[i].style.opacity="1";
+                q[i].style.visibility="visible";
             }
         }
         else {
@@ -25,6 +27,7 @@ class Navbar extends React.Component {
                 x[i].style.visibility="hidden";
                 x[i].style.height="0px";
                 y[i].style.opacity="0";
+                q[i].style.visibility="hidden";
               }
         }
         
@@ -37,12 +40,15 @@ class Navbar extends React.Component {
               let y=document.getElementsByClassName('navbar-dropdown-item-text');
               let z=document.getElementsByClassName('navbar-dropdown-icon-style');
               let p=document.getElementsByClassName('navbar-dropdown-icon-img');
+              let q=document.getElementsByClassName('navbar-dropdown-anchor');
+
               z[0].style.backgroundColor="var(--dark)";
               p[0].src=process.env.PUBLIC_URL + "/themes/"+ theme +"/hamburger-medium.png";
               for(let i=0 ; i<x.length ; i++){
                 x[i].style.visibility="hidden";
                 x[i].style.height="0px";
                 y[i].style.opacity="0";
+                q[i].style.visibility="hidden";
               }
             }
         }
@@ -78,42 +84,48 @@ class Navbar extends React.Component {
                         </a>
                     </div>
                     
-                    <a href="#home" onClick={() => this.props.clickFunction("home")}>
+                    <a href="#home" onClick={() => this.props.clickFunction("home")}
+                    className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">Home</div>
                         </div>
                     </a>
                     
                     
-                    <a href="#about" onClick={() => this.props.clickFunction("about")}>
+                    <a href="#about" onClick={() => this.props.clickFunction("about")}
+                    className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">About</div>
                         </div>
                         </a>
                     
                     
-                    <a href="#skills" onClick={() => this.props.clickFunction("skills")}>
+                    <a href="#skills" onClick={() => this.props.clickFunction("skills")}
+                    className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">Skills</div>
                         </div>
                         </a>
                     
                     
-                    <a href="#project" onClick={() => this.props.clickFunction("project")}>
+                    <a href="#project" onClick={() => this.props.clickFunction("project")}
+                    className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">Projects</div>
                         </div>
                         </a>
                     
                     
-                    <a href="#experience" onClick={() => this.props.clickFunction("experience")}>
+                    <a href="#experience" onClick={() => this.props.clickFunction("experience")}
+                    className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">Experience</div>
                         </div>
                         </a>
                     
                     
-                    <a href="#education" onClick={() => this.props.clickFunction("education")}>
+                    <a href="#education" onClick={() => this.props.clickFunction("education")}
+                    className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">Education</div>
                         </div>

@@ -79,6 +79,9 @@ button{
     border-color: var(--dark);
     /* width:0; */
 }
+.navbar-dropdown-anchor{
+    visibility: hidden;
+}
 .navbar-dropdown-item:hover{
     background-color: var(--medium);
 }
