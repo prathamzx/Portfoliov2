@@ -60,15 +60,15 @@
     height:400px;
     width: 41%;
     margin-left: 6%;
-    animation: 1.5s pop-out-ed forwards;
+    animation: 2s pop-out-ed forwards;
 }
 
 @keyframes pop-out-ed{
     0%{
-        margin-left: -100%;
+        opacity: 0;
     }
     100%{
-        margin-left: 6%;
+        opacity: 1;
     }
 }
 
@@ -268,14 +268,6 @@
     }
     .education-label-text{
         font-size: 8vw;
-    }
-    @keyframes pop-out-ed{
-        0%{
-            margin-left: -100%;
-        }
-        100%{
-            margin-left: 0%;
-        }
     }
 }
 
