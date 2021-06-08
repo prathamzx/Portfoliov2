@@ -11,8 +11,8 @@ class Home extends React.Component {
                 {/* <button onClick={()=>{this.changeColor()}} className="test-button">Click me</button> */}
                 <div className="home-pic-back-1"></div>
                 <div className="home-pic-back-2">
-                    {/* <img className="home-dp" 
-                    src={process.env.PUBLIC_URL+"/themes/"+this.props.theme+"/dp1.jpg"}></img> */}
+                    <img className="home-dp" 
+                    src={process.env.PUBLIC_URL+"/themes/"+this.props.theme+"/dp2.jpg"}></img>
                 </div>
                 <div className="home-text">
                     <div className="home-text-name">
