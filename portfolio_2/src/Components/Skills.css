@@ -183,14 +183,15 @@
 .bar-label{
     position: relative;
     width: 70%;
-    color: var(--medium);
+    color: var(--light);
     left:50%;
     transform: translate(-50%,0);
-    font-size: 130%;
+    font-size: 120%;
     font-family: "Balsamiq Sans";
     /* font-weight: bold; */
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-left: -20px;
+    opacity: 0.9 ;
 }
 
 .bar{
@@ -199,14 +200,14 @@
     border-radius: 15px;
     margin-bottom: 15px;
     font-size: 1.2vw;
-    color: var(--light);
+    color: var(--dark);
     font-weight: bold;
     width:70%;
     position: relative;
     left:50%;
     top:20%;
     transform: translate(-50%,0);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.5); */
 }
 .bar::before{
     content:  attr(data-skill);

@@ -21,10 +21,10 @@ class Theme extends React.Component {
                 <button onClick={()=>{this.props.changeTheme(Scheme.scheme1,"carnation")}} className="theme-button">
                     <div className="theme-button-text">Carnation</div> 
                 <div id="carnation" className="theme-button-arrow">◉</div></button>
-                <button onClick={()=>{this.props.changeTheme(Scheme.scheme2,"bazaar")}} className="theme-button">
+                {/* <button onClick={()=>{this.props.changeTheme(Scheme.scheme2,"bazaar")}} className="theme-button">
                 <div className="theme-button-text">Bazaar</div> 
                 <div id="bazaar" className="theme-button-arrow">◉</div>
-                </button>
+                </button> */}
                 <button onClick={()=>{this.props.changeTheme(Scheme.scheme3,"geraldine")}} className="theme-button">
                 <div className="theme-button-text">Geraldine</div> 
                 <div id="geraldine" className="theme-button-arrow">◉</div>

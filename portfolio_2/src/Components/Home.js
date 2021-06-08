@@ -12,7 +12,7 @@ class Home extends React.Component {
                 <div className="home-pic-back-1"></div>
                 <div className="home-pic-back-2">
                     <img className="home-dp" 
-                    src={process.env.PUBLIC_URL+"/themes/"+this.props.theme+"/dp2.jpg"}></img>
+                    src={process.env.PUBLIC_URL+"/themes/"+this.props.theme+"/dp3.png"}></img>
                 </div>
                 <div className="home-text">
                     <div className="home-text-name">
