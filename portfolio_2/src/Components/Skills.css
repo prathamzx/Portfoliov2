@@ -197,7 +197,7 @@
 .bar{
     background-color: rgba(0, 0, 0, 0.39);
     padding: 2px;
-    border-radius: 15px;
+    border-radius: 50px;
     margin-bottom: 15px;
     font-size: 1.2vw;
     color: var(--dark);
@@ -213,7 +213,7 @@
     content:  attr(data-skill);
     background-color: var(--medium);
     display: inline-block;
-    padding: 5px 0 5px 10px;
+    padding: 5px 0px 5px 10px;
     border-radius: inherit;
     animation: load 2s  forwards;
     overflow: hidden;
@@ -382,6 +382,16 @@ svg circle{
     }
 }
 
+@media screen and (max-width:1100px) {
+    .bar{
+        margin-bottom: 5%;
+    }
+    .bar-label{
+        margin-bottom: 5%;
+    }
+    
+}
+
 @media screen and (max-width:900px) and (min-width:750px) {
     .skills-label{
         display: none;
@@ -429,11 +439,33 @@ svg circle{
     .progress-box-entry-label{
         font-size: 2.8vw;
     }
+    .bar{
+        margin-bottom: 2%;
+    }
+    .bar-label{
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .bar{
+        margin-bottom: 5%;
+    }
+    .bar-label{
+        margin-bottom: 5%;
+    }
+    
 }
 
 @media screen and (max-width:400px){
     .progress-box-entry{
         height: 28vw;
         width: 28vw;
+    }
+    .bar{
+        font-size: 2.7vw;
+    }
+    .bar-label{
+        margin-bottom: 10%;
     }
 }
