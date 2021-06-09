@@ -7,17 +7,19 @@
 
 .home-container{
     height: 780px;
-    width: 100vw;
+    width: min(100vw,1800px);
     background-color: var(--dark);
     /* opacity: 0.9; */
     position: absolute;
     top: 50px;
-    right: 0%;
+    left:50%;
+    transform: translate(-50%,0);
+
 }
 
 .home-pic-back-1{
-    height: 29vw;
-    width: 29vw;
+    height: min(29vw,521px);
+    width: min(29vw,521px);
     position: absolute;
     top:43%;
     left:10%;
@@ -29,8 +31,8 @@
 
 
 .home-pic-back-2{
-    height: 29vw;
-    width: 29vw;
+    height: min(29vw,521px);
+    width: min(29vw,521px);
     position: absolute;
     top:43%;
     left:13%;
@@ -62,7 +64,7 @@
     color: var(--medium);
     font-family: "Jockey One";
     /* text-align: center; */
-    font-size: 5vw;
+    font-size: min(5vw,90px);
     font-weight:bolder;
 }
 
@@ -70,7 +72,7 @@
     color:var(--light);
     font-family: "Jockey One";
     /* text-align: center; */
-    font-size: 2vw;
+    font-size: min(2vw,36px);
     /* opacity: 0.8; */
 
     /* font-weight:bolder; */

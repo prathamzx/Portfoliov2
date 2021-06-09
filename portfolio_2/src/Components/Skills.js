@@ -6,7 +6,7 @@ class Skills extends React.Component {
 
     render(){
         return(
-            <div key={this.props.clicked}>
+            <div key={this.props.clicked} className="skills">
                 <div id="skills"></div>
                 <div className="skills-label-left"></div>
                 <div className="skills-label-right"></div>

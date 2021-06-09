@@ -3,6 +3,13 @@
     top:1290px;
 }
 
+.skills{
+    width: min(100vw,1800px);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
 .skills-container-left{
     height: 700px;
     width: 39%;
@@ -186,7 +193,7 @@
     color: var(--light);
     left:50%;
     transform: translate(-50%,0);
-    font-size: 120%;
+    font-size: min(120%,19.2px);
     font-family: "Balsamiq Sans";
     /* font-weight: bold; */
     margin-bottom: 2%;
@@ -199,7 +206,7 @@
     padding: 2px;
     border-radius: 50px;
     margin-bottom: 15px;
-    font-size: 1.2vw;
+    font-size: min(1.2vw,20px);
     color: var(--dark);
     font-weight: bold;
     width:70%;
@@ -314,7 +321,7 @@
     width: 100%;
     text-align: center;
     color: var(--light);
-    font-size: 1.1vw;
+    font-size: min(1.1vw,19.8px);
     margin-top: 10px;
     font-family: "Balsamiq Sans";
     /* overflow: hidden; */

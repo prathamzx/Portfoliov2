@@ -7,6 +7,8 @@ class Theme extends React.Component {
     render(){
         // console.log(Scheme);
         return(
+
+            <div className="theme">
             <div className="theme-container">
                 <button className="theme-navbar">
                     <div className="theme-navbar-label">
@@ -34,6 +36,7 @@ class Theme extends React.Component {
                 <div id="shadowgreen" className="theme-button-arrow">◉</div>
                 </button>
                 </div>
+            </div>
             </div>
         );
     }

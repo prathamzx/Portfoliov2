@@ -5,9 +5,11 @@
 
 .education-container{
     height: 500px;
-    width:100%;
+    width:min(100%,1800px);
     position: absolute;
     top:3500px;
+    left:50%;
+    transform: translate(-50%,0);
 }
 
 .education-text{
@@ -88,9 +90,9 @@
 }
 
 .education-text-entry-dp-back{
-    width: 8vw;
+    width: min(8vw,144px);
     border-radius: 50%;
-    height: 8vw;
+    height: min(8vw,144px);
     position: relative;
     top:-10%;
     background-color: var(--light);
@@ -132,26 +134,26 @@
 }
 
 .education-head-title{
-    font-size: 1.4vw;
+    font-size: min(1.4vw,25.2px);
     font-weight: bold;
 }
 
 .education-head-course{
-    font-size: 1.1vw;
+    font-size: min(1.1vw,19.8px);
     font-weight: bold;
 }
 
 .education-head-duration{
-    font-size: 1.1vw;
+    font-size: min(1.1vw,19.8px);
 }
 
 .education-head-grades{
-    font-size: 1.1vw;
+    font-size: min(1.1vw,19.8px);
     font-weight: bold;
 }
 
 .education-head-location{
-    font-size: 1.2vw;
+    font-size: (1.2vw,21.6px);
 }
 
 @media screen and (max-width:1300px) {

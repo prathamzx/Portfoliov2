@@ -7,7 +7,7 @@ class About extends React.Component {
     render(){
         const aboutText="";
         return(
-        <div key={this.props.clicked}>   
+        <div key={this.props.clicked} className="about">   
             <div id="about"></div>
             <div className="about-container">
                 <div className="about-container-text">

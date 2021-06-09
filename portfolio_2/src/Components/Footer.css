@@ -1,10 +1,12 @@
 .footer-container{
     height: 80px;
-    width: 100%;
+    width: min(100%,1800px);
     position: absolute;
     top:4050px;
     background-color: var(--dark);
     font-family: "Balsamiq Sans";
+    left:50%;
+    transform: translate(-50%,0);
 }
 
 .footer-copyright{
