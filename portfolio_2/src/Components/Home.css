@@ -294,14 +294,17 @@
             height: 0;
             width: 0;
             left:51%;
+            transform: translate(-50%,-50%);
         }
         50%{
             height: 75vw;
             width: 75vw;
             left:51%;
+            transform: translate(-50%,-50%);
         }
         100%{
             left:46%;
+            transform: translate(-50%,-50%);
         }
     }
     @keyframes home-pop-out-2 {

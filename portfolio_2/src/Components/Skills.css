@@ -207,14 +207,14 @@
     border-radius: 50px;
     margin-bottom: 15px;
     font-size: min(1.2vw,20px);
-    color: var(--dark);
+    color: var(--light);
     font-weight: bold;
     width:70%;
     position: relative;
     left:50%;
     top:20%;
     transform: translate(-50%,0);
-    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.5); */
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 .bar::before{
     content:  attr(data-skill);
