@@ -29,7 +29,7 @@ class About extends React.Component {
                              </div>
                              <br/><br/>
                             Hi there, I am Pratham Agarwal, a 22 year old tech savvy and a software engineer, 
-                            who believes in exploration rather than exploitation and prefers tea over coffee.
+                            who believes in exploration over exploitation and tea over coffee.
 
                             I have experience in developing full fledged websites from scratch, training deep CNN models
                              and making life easier by providing automated solutions. 
