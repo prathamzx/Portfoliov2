@@ -34,7 +34,7 @@ class Footer extends React.Component {
                     </a>
                 </div>
                 <div className="footer-copyright">
-                © 2021 prathamintech.com, All Rights Reserved.
+                © 2021 prathamintech.in, All Rights Reserved.
                 </div>
             </div>
         );
