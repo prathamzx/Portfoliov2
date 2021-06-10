@@ -79,7 +79,6 @@ button{
     border-width: 1px;
     border-style: solid;
     border-color: var(--dark);
-    /* width:0; */
 }
 .navbar-dropdown-anchor{
     /* visibility: hidden; */
