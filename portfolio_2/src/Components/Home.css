@@ -29,6 +29,9 @@
     border-radius: 50%;
     /* opacity: 0.8; */
     animation: 3s home-pop-out-1 forwards;
+    -webkit-animation: home-pop-out-1 3s 0s forwards;
+    -moz-animation: home-pop-out-1 3s 0s forwards;
+    -o-animation: home-pop-out-1 3s 0s forwards;
 }
 
 
@@ -70,6 +73,9 @@
     background-color: var(--medium);
     border-radius: 50%;
     animation: 2s home-pop-out-2 forwards;
+    -webkit-animation: home-pop-out-2 2s 0s forwards;
+    -moz-animation: home-pop-out-2 2s 0s forwards;
+    -o-animation: home-pop-out-2 2s 0s forwards;
 }
 
 @keyframes home-pop-out-2 {
