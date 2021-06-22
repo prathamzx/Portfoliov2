@@ -107,19 +107,17 @@ class Navbar extends React.Component {
                         </div>
                         </a>
                     
-                    
-                    <a href="#project" onClick={() => this.props.clickFunction("project")}
-                    className="navbar-dropdown-anchor">
-                    <div className="navbar-dropdown-item">
-                        <div className="navbar-dropdown-item-text">Projects</div>
-                        </div>
-                        </a>
-                    
-                    
                     <a href="#experience" onClick={() => this.props.clickFunction("experience")}
                     className="navbar-dropdown-anchor">
                     <div className="navbar-dropdown-item">
                         <div className="navbar-dropdown-item-text">Experience</div>
+                        </div>
+                        </a>
+
+                    <a href="#project" onClick={() => this.props.clickFunction("project")}
+                    className="navbar-dropdown-anchor">
+                    <div className="navbar-dropdown-item">
+                        <div className="navbar-dropdown-item-text">Projects</div>
                         </div>
                         </a>
                     
